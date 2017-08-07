@@ -9,6 +9,20 @@ a {
     color: inherit;
 }
 
+
+h1, h2, h3 {
+    font-height: 2.4vmin;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+
+p {
+    font-height: 2.4vmin;
+}
+
 a[href]:hover {
     background-color: black;
     color: white;
