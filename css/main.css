@@ -2,12 +2,13 @@ html {
     margin: 5vw 3vw 15vw 3vw;
     font-family: monospace;
     font-size: 2.4vmin;
+    
+    background-color: lightgrey;
 }
 
 a {
-    background-color: lightgrey;
+    background-color: white;
     text-decoration: none;
-    color: inherit;
 }
 
 a[href]:hover {
