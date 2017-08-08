@@ -8,18 +8,3 @@ title: experiments
 <div class="post">
   {{ content }}
 </div>
-
-
-
----
-layout: default
-title: Sean Butler's Blog
----
-<h1>{{ page.title }}</h1>
-
-{% for post in site.posts %}
-
-<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-({{ post.date | date_to_string }})<br />
-
-{% endfor %}
