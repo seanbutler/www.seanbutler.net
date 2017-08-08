@@ -1,3 +1,7 @@
-theme: jekyll-theme-minimal
-name: Hank Quinlan, Horrible Cop
+
+name: Sean Butler
 markdown: kramdown
+
+
+collections:
+- experiments
