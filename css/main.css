@@ -1,30 +1,56 @@
 html {
-    margin: 1vw 1vw 1vw 1vw;
+    margin: 1vw 20vw 1vw 20vw;
     font-family: 'Share Tech Mono', monospace;
-    font-size: 2.4vw;
-    line-height: 2.9vw;
-    background-color: lightgrey;
+    background-color: #444;
+    color: #DDD;
+
     font-weight: lighter;
+    font-size: 2.2vw;
+    line-height: 2.5vw;
+    font-size: 1.5vw;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-size: 2.4vw;
-    line-height: 3.0vw;
+h1, h2, h3 {
     font-weight: bold;
+    font-size: 2.5vw;
+}
+
+h4, h5, h6 {
+    font-weight: bold;
+    font-size: 2.6vw;
 }
 
 a {
-    background-color: white;
+    border-radius: 2vw;
+    padding: 0.25vw 1vw 0.25vw 1vw ;
+    border: 0.15vw solid #777;
+    color: #DDD;
     text-decoration: none;
-    color: black;
-    /*margin: 1vw;*/
-    padding: 0.25vw;
 }
 
 a[href]:hover {
-
+    border-radius: 2vw;
+    padding: 0.25vw 1vw 0.25vw 1vw ;
+    border: 0.15vw solid orange;
+    color: #444;
     background-color: orange;
-    /*background-color: black;*/
+    text-decoration: none;
+}
+
+a[href]:active {
+    border-radius: 2vw;
+    padding: 0.25vw 1vw 0.25vw 1vw ;
+    border: 0.1vw solid #DDD;
+    background-color: orange;
+    color: #DDD;
+    text-decoration: none;
+}
+
+li, p {
+    font-weight: lighter;
+    font-size: 2.2vw;
+    line-height: 2.5vw;
+    font-size: 1.5vw;
 }
 
 canvas {
@@ -35,5 +61,5 @@ canvas {
   top: 0;
   left: 0;
   z-index: -9999;
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
 }

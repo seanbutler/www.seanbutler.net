@@ -3,11 +3,11 @@ var camera = new THREE.PerspectiveCamera(60, 1.333, 0.1, 100);
 
 var canvas = document.querySelector("canvas");
 var renderer = new THREE.WebGLRenderer({canvas: canvas});
-renderer.setClearColor(0xD3D3D3);
+// renderer.setClearColor(0xD3D3D3);
 
 var geometry = new THREE.BoxGeometry(9, 9, 9);
 var material = new THREE.MeshBasicMaterial({
-    color: 0xD3D3D3
+    color: 0x333333
 });
 
 var edges = new THREE.EdgesGeometry( geometry );
@@ -38,7 +38,7 @@ function resize() {
 }
 
 function render(time) {
-    time *= 0.001;
+    time *= 0.002;
     resize();
     line.rotation.x = cube.rotation.x = time * 0.1;
     line.rotation.y = cube.rotation.y = time * 0.031;
