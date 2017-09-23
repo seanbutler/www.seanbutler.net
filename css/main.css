@@ -1,23 +1,30 @@
 html {
-    margin: 3vw 3vw 3vw 3vw;
-    font-family: monospace;
-    font-size: 2vw;
-    line-height: 2.2vw;
+    margin: 1vw 1vw 1vw 1vw;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2.4vw;
+    line-height: 2.9vw;
     background-color: lightgrey;
+    font-weight: lighter;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-size: 2vw;
-    line-height: 3.5vw;
+    font-size: 2.4vw;
+    line-height: 3.0vw;
+    font-weight: bold;
 }
 
 a {
     background-color: white;
     text-decoration: none;
+    color: black;
+    /*margin: 1vw;*/
+    padding: 0.25vw;
 }
 
 a[href]:hover {
-    background-color: black;
+
+    background-color: orange;
+    /*background-color: black;*/
 }
 
 canvas {
