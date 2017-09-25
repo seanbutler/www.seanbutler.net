@@ -1,23 +1,25 @@
 html {
-    margin: 1vw 20vw 1vw 20vw;
+    margin: 2vw 20vw 2vw 20vw;
     font-family: 'Share Tech Mono', monospace;
     background-color: #444;
     color: #DDD;
 
     font-weight: lighter;
-    font-size: 2.2vw;
     line-height: 2.5vw;
-    font-size: 1.5vw;
+    /*font-size: 1.vw;*/
+
 }
 
 h1, h2, h3 {
+    font-family: 'Share Tech Mono', monospace;
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 h4, h5, h6 {
+    font-family: 'Share Tech Mono', monospace;
     font-weight: bold;
-    font-size: 2.6vw;
+    font-size: 2.5vw;
 }
 
 a {
@@ -40,17 +42,17 @@ a[href]:hover {
 a[href]:active {
     border-radius: 2vw;
     padding: 0.25vw 1vw 0.25vw 1vw ;
-    border: 0.1vw solid #DDD;
-    background-color: orange;
+    border: 0.15vw solid #DDD;
     color: #DDD;
+    background-color: orange;
     text-decoration: none;
 }
 
 li, p {
-    font-weight: lighter;
-    font-size: 2.2vw;
-    line-height: 2.5vw;
-    font-size: 1.5vw;
+    /*font-weight: 100;*/
+    /*line-height: 2.5vw;*/
+    /*font-size: 1.2vw;*/
+
 }
 
 canvas {
