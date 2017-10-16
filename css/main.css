@@ -28,26 +28,26 @@ li, p {
 }
 
 a {
-    border-radius: 2vw;
+    /*border-radius: 2vw;
     padding: 0.25vw 1vw 0.25vw 1vw ;
     border: 0.15vw solid #777;
     color: #DDD;
-    text-decoration: none;
+    text-decoration: none;*/
 }
 
 a[href]:hover {
-    border-radius: 2vw;
+    /*border-radius: 2vw;
     padding: 0.25vw 1vw 0.25vw 1vw ;
     border: 0.15vw solid orange;
-    color: #444;
+    color: #444;*/
     background-color: orange;
     text-decoration: none;
 }
 
 a[href]:active {
-    border-radius: 2vw;
+    /*border-radius: 2vw;
     padding: 0.25vw 1vw 0.25vw 1vw ;
-    border: 0.15vw solid #DDD;
+    border: 0.15vw solid #DDD;*/
     color: #DDD;
     background-color: orange;
     text-decoration: none;
