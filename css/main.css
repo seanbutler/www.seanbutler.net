@@ -8,6 +8,12 @@ html {
     line-height: 2.5vw;
 }
 
+body {
+  font-weight: 100;
+  line-height: 2.5vw;
+  font-size: 1.25vw;
+}
+
 h1, h2, h3 {
     font-family: 'Share Tech Mono', monospace;
     font-weight: bold;
@@ -20,19 +26,12 @@ h4, h5, h6 {
     font-size: 2.5vw;
 }
 
-
-li, p {
-    font-weight: 100;
-    line-height: 2.5vw;
-    font-size: 1.25vw;
-}
-
 a {
     /*border-radius: 2vw;
     padding: 0.25vw 1vw 0.25vw 1vw ;
-    border: 0.15vw solid #777;
+    border: 0.15vw solid #777;*/
     color: #DDD;
-    text-decoration: none;*/
+    text-decoration: none;
 }
 
 a[href]:hover {
