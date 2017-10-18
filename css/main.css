@@ -1,8 +1,8 @@
 html {
     margin: 2vw 10vw 2vw 10vw;
     font-family: 'Share Tech Mono', monospace;
-    /*background-color: #444;
-    color: #DDD;*/
+
+    color: #333;
 
     font-weight: lighter;
     line-height: 3vw;
@@ -12,6 +12,7 @@ body {
   font-weight: 100;
   line-height: 3vw;
   font-size: 2vw;
+
 }
 
 h1, h2, h3 {
@@ -22,13 +23,16 @@ h1, h2, h3 {
 h4, h5, h6 {
     /*font-weight: bold;
     font-size: 2.5vw;*/
+
+
 }
 
 a {
     /*border-radius: 2vw;
     padding: 0.25vw 1vw 0.25vw 1vw ;
     border: 0.15vw solid #777;*/
-    background-color: #CCC;
+    background-color: #DDD;
+    color: #333;
     text-decoration: none;
 }
 
@@ -38,6 +42,8 @@ a[href]:hover {
     border: 0.15vw solid orange;
     color: #444;*/
     background-color: orange;
+    color: #333;
+
     text-decoration: none;
 }
 
@@ -45,8 +51,9 @@ a[href]:active {
     /*border-radius: 2vw;
     padding: 0.25vw 1vw 0.25vw 1vw ;
     border: 0.15vw solid #DDD;*/
-    color: orange;
     text-decoration: none;
+    color: #333;
+
 }
 
 
