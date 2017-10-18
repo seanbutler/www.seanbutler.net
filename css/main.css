@@ -1,8 +1,8 @@
 html {
     margin: 2vw 10vw 2vw 10vw;
     font-family: 'Share Tech Mono', monospace;
-    background-color: #444;
-    color: #DDD;
+    /*background-color: #444;
+    color: #DDD;*/
 
     font-weight: lighter;
     line-height: 3vw;
@@ -15,13 +15,11 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Share Tech Mono', monospace;
     font-weight: bold;
     font-size: 3vw;
 }
 
 h4, h5, h6 {
-    font-family: 'Share Tech Mono', monospace;
     font-weight: bold;
     font-size: 2.5vw;
 }
