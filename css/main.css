@@ -17,20 +17,16 @@ body {
 h1 {
     font-weight: bold;
     /* font-size: 2vw; */
+    /* text-align: center; */
 
-    border-bottom: 1vw solid #333;
+    /* border-bottom: 1vw solid #333; */
     padding-bottom: 0.5vw;
 }
 
-h2, h3 {
-    font-weight: bold;
-
-}
-
-h4, h5, h6 {
+h2, h3,h4, h5, h6 {
     font-weight: bold;
     /* font-size: 2vw; */
-    color: #777;
+    /* color: #777; */
 }
 
 nav{
@@ -41,8 +37,8 @@ nav{
 }
 
 .container {
-        /* border-top: 1vw solid black;
-        border-bottom: 0.5vw solid black; */
+    /* border-top: 1vw solid black;
+    border-bottom: 0.5vw solid black; */
     padding-bottom: 3vw;
 }
 
