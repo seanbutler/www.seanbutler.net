@@ -1,36 +1,64 @@
 html {
-    margin: 2vw 10vw 2vw 10vw;
-    font-family: 'Inconsolata', monospace;
-
-    color: #333;
-
-    font-weight: lighter;
-    line-height: 3vw;
+    margin: 3vw 10vw 3vw 10vw;
+    font-family:  monospace;
+    /* background:   #444; */
+    /* font-weight: lighter; */
 }
 
 body {
-  font-weight: 100;
-  line-height: 3vw;
-  font-size: 2vw;
+    color: #333;
+    /* padding: 3vw; */
+    background: white;
+    /* font-weight: 100; */
+    line-height: 3vw;
+    font-size: 1.5vw;
 }
 
-h1, h2, h3 {
-    /*font-weight: bold;
-    font-size: 3vw;*/
+h1 {
+    font-weight: bold;
+    /* font-size: 2vw; */
+
+    border-bottom: 1vw solid #333;
+    padding-bottom: 0.5vw;
+}
+
+h2, h3 {
+    font-weight: bold;
+
 }
 
 h4, h5, h6 {
-    /*font-weight: bold;
-    font-size: 2.5vw;*/
+    font-weight: bold;
+    /* font-size: 2vw; */
+    color: #777;
+}
+
+nav{
+    /* border-bottom: 1vw solid black;
+    margin-bottom: 2vw;
+    padding-bottom: 2vw; */
+    text-align: center;
+}
+
+.container {
+        /* border-top: 1vw solid black;
+        border-bottom: 0.5vw solid black; */
+    padding-bottom: 3vw;
+}
+
+footer{
+    /* border-top: 1vw solid black;
+    margin-top: 5vw; */
+
+
+    text-align: center;
+
 }
 
 a {
-    /*border-radius: 2vw;
-    padding: 0.25vw 1vw 0.25vw 1vw ;
-    border: 0.15vw solid #777;*/
-    background-color: #DDD;
+    /* background-color: #DDD; */
     color: #333;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 a[href]:hover {
@@ -38,10 +66,9 @@ a[href]:hover {
     padding: 0.25vw 1vw 0.25vw 1vw ;
     border: 0.15vw solid orange;
     color: #444;*/
-    background-color: orange;
-    color: #333;
-
-    text-decoration: none;
+    /* background-color: magenta; */
+    /* color: #333; */
+    /* text-decoration: none; */
 }
 
 a[href]:active {
