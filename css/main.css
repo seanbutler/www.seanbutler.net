@@ -1,78 +1,51 @@
 html {
     margin: 3vw 10vw 3vw 10vw;
-    font-family:  monospace;
-    /* background:   #444; */
-    /* font-weight: lighter; */
+    /* font-family:  monospace; */
+    background-color: black;
+    color: white;
 }
 
+
 body {
-    color: #333;
-    /* padding: 3vw; */
+    /* color: #333;
     background: white;
-    /* font-weight: 100; */
     line-height: 3vw;
-    font-size: 1.5vw;
+    font-size: 1.5vw; */
 }
 
 h1 {
-    font-weight: bold;
-    /* font-size: 2vw; */
-    /* text-align: center; */
-
-    /* border-bottom: 1vw solid #333; */
-    padding-bottom: 0.5vw;
+    /* font-weight: bold;
+    padding-bottom: 0.5vw; */
 }
 
 h2, h3,h4, h5, h6 {
-    font-weight: bold;
-    /* font-size: 2vw; */
-    /* color: #777; */
+    /* font-weight: bold; */
 }
 
 nav{
-    /* border-bottom: 1vw solid black;
-    margin-bottom: 2vw;
-    padding-bottom: 2vw; */
-    text-align: center;
+    /* text-align: center; */
 }
 
 .container {
-    /* border-top: 1vw solid black;
-    border-bottom: 0.5vw solid black; */
-    padding-bottom: 3vw;
+    /* padding-bottom: 3vw; */
 }
 
 footer{
-    /* border-top: 1vw solid black;
-    margin-top: 5vw; */
-
-
-    text-align: center;
-
+    /* text-align: center; */
 }
 
 a {
-    /* background-color: #DDD; */
-    color: #333;
-    /* text-decoration: none; */
+    /* color: #333; */
+    color: white;
+
 }
 
 a[href]:hover {
-    /*border-radius: 2vw;
-    padding: 0.25vw 1vw 0.25vw 1vw ;
-    border: 0.15vw solid orange;
-    color: #444;*/
-    /* background-color: magenta; */
-    /* color: #333; */
-    /* text-decoration: none; */
 }
 
 a[href]:active {
-    /*border-radius: 2vw;
-    padding: 0.25vw 1vw 0.25vw 1vw ;
-    border: 0.15vw solid #DDD;*/
-    text-decoration: none;
-    color: #333;
+    /* text-decoration: none;
+    color: #333; */
 }
 
 canvas {
@@ -83,5 +56,5 @@ canvas {
   top: 0;
   left: 0;
   z-index: -9999;
-  /*background-color: lightgrey;*/
+  /* background-color: lightgrey; */
 }

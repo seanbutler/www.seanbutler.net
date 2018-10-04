@@ -3,20 +3,21 @@ var camera = new THREE.PerspectiveCamera(60, 1.333, 0.1, 100);
 
 var canvas = document.querySelector("canvas");
 var renderer = new THREE.WebGLRenderer({canvas: canvas});
-renderer.setClearColor(0xFFFFFF);
+// renderer.setClearColor(0xFFFFFF);
+// renderer.setClearColor(0);
 
 var geometry;
 // geometry = new THREE.BoxGeometry(1, 1, 1);
 // geometry = new THREE.SphereGeometry(1, 7, 7);
-geometry = new THREE.IcosahedronBufferGeometry(1, 0);
+geometry = new THREE.IcosahedronBufferGeometry(1, 1);
 
 var material = new THREE.MeshBasicMaterial({
-    color: 0xFFFFFF
+    color: 0x000000
 });
 
 var edges = new THREE.EdgesGeometry( geometry );
 var lineMat = new THREE.LineBasicMaterial({
-	color: 0x777777,
+	color: 0xFFFFFF,
 	linewidth: 2,
 	linecap: 'round', //ignored by WebGLRenderer
 	linejoin:  'round' //ignored by WebGLRenderer
@@ -36,7 +37,7 @@ function resize() {
     if (width != canvas.width || height != canvas.height) {
       renderer.setSize(width, height, false);
       camera.aspect = width / height;
-      camera.updateProjectionMatrix();  
+      camera.updateProjectionMatrix();
     }
 }
 
