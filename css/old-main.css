@@ -1,16 +1,16 @@
 html {
     margin: 3vw 10vw 3vw 10vw;
-    /* font-family:  monospace; */
+    font-family:  monospace;
     background-color: black;
     color: white;
 }
 
 
 body {
-    /* color: #333;
-    background: white;
+    /* color: #333; */
+    /* background: white; */
     line-height: 3vw;
-    font-size: 1.5vw; */
+    font-size: 1.5vw;
 }
 
 h1 {
@@ -41,6 +41,7 @@ a {
 }
 
 a[href]:hover {
+    color: grey;
 }
 
 a[href]:active {
