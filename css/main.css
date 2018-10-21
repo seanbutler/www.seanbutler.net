@@ -1,0 +1,49 @@
+body{
+    margin: 40px auto;
+    max-width: 800px;
+    font-family: sans-serif;
+    line-height: 1.8;
+    font-size: 24px;
+    color: #444;
+    padding: 0 1em;
+    font-weight: lighter;
+}
+
+h1, h2, h3 {
+    /* font-size: 32px; */
+    /* color: #ff6600; */
+    
+    font-weight: lighter;
+    line-height: 1.2;
+}
+
+nav{
+}
+
+.container {
+}
+
+footer{
+}
+
+a {
+    color:#444;
+}
+
+a[href]:hover {
+    color:#444;
+}
+
+a[href]:active {
+    color:#444;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
