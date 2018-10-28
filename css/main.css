@@ -6,24 +6,24 @@ body{
     font-size: 24px;
     color: #444;
     padding: 0 1em;
-    font-weight: lighter;
+    /* font-weight: lighter; */
 }
 
 h1, h2, h3 {
-    /* font-size: 32px; */
-    /* color: #ff6600; */
-
-    font-weight: lighter;
-    line-height: 1.2;
+    /* font-weight: lighter; */
+    line-height: 1;
 }
 
 nav{
+
 }
 
 .container {
+
 }
 
 footer{
+
 }
 
 a {
