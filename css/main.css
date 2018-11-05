@@ -4,8 +4,8 @@ body{
     font-family: sans-serif;
     line-height: 1.8;
     font-size: 24px;
-    background-color: #333;
-    color: #DDD;
+    background-color: #171717;
+    color: #E7E7E7;
     padding: 0 1em;
     /* font-weight: lighter; */
 }
@@ -28,15 +28,15 @@ footer{
 }
 
 a {
-    color:#AAA;
+    color:#E7E7E7;
 }
 
 a[href]:hover {
-    color:#AAA;
+    /* color:#AAA; */
 }
 
 a[href]:active {
-    color:#AAA;
+    /* color:#AAA; */
 }
 
 canvas {
