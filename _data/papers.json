@@ -4,7 +4,7 @@
         "year": "1997",
         "title": "film sequence generation strategies for generic automatic intelligent video editing",
         "publication": "special issue on entertainment and ai/alife of applied artificial intelligence (aai)",
-        "link": "",
+        "web": "",
         "file": ""
     },
     {
@@ -12,7 +12,7 @@
         "year": "1996",
         "title": "automatic film editing by filmic decomposition of nonfilmic queries",
         "publication": "international conference on multimedia technology and management (icmtm), hong kong",
-        "link": "",
+        "web": "",
         "file": ""
     },
     {
@@ -20,7 +20,7 @@
         "year": "1996",
         "title": "filmic spacetime diagrams for film structure representation",
         "publication": "signal processing: image communication, volume 8 issue 4",
-        "link": "https://doi.org/10.1016/0923-5965(95)00052-6",
+        "web": "https://doi.org/10.1016/0923-5965(95)00052-6",
         "file": "../publications/ButlerParkes94-FilmicSpaceTimeDiagramsForVideo.pdf"
     },
     {
@@ -28,7 +28,7 @@
         "year": "1994",
         "title": "artificial intelligence techniques and film structure knowledge for the representation and manipulation of video",
         "publication": "proceedings of riao 1994, intelligent multimedia information retrieval systems and management. vol. 2. rockefeller university, new york.",
-        "link": "",
+        "web": "",
         "file": ""
     },
     {
