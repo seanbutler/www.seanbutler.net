@@ -17,11 +17,11 @@ title: research
    <p>{{ paper.authors }} ({{paper.year}}) {{paper.title}} {{paper.publication}}
 
         {% if paper.web %}
-            <a href = "{{paper.web}}">web link</a>
+            <a href = "{{paper.web}}">web</a>
         {% endif %}
 
         {% if paper.file %}
-            <a href = "{{paper.file}}">file</a>
+            <a href = "{{paper.file}}">pdf</a>
         {% endif %}
    </p>
 {% endfor %}
