@@ -17,7 +17,8 @@ title: research
    <p>{{ paper.authors }} ({{paper.year}}) {{paper.title}} {{paper.publication}}
         {% if page.web != "" %}
             <a href = "{{paper.web}}">web link</a>
-        {% elseif paper.file != "" %}
+        {% endif %}
+        {% if paper.file != "" %}
             <a href = "{{paper.file}}">file</a>
         {% endif %}
    </p>
