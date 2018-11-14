@@ -18,10 +18,10 @@
     {
         "authors":"butler, s. and parkes, a.",
         "year": "1996",
-        "title": "spacetime diagrams for film structure representation",
+        "title": "filmic spacetime diagrams for film structure representation",
         "publication": "signal processing: image communication, volume 8 issue 4",
-        "link": "",
-        "file": ""
+        "link": "https://doi.org/10.1016/0923-5965(95)00052-6",
+        "file": "../publications/ButlerParkes94-FilmicSpaceTimeDiagramsForVideo.pdf"
     },
     {
         "authors":"parkes, a. p., nack, f., and butler, s.",
