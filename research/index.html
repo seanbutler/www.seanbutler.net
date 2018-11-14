@@ -14,27 +14,5 @@ title: research
 <h2>publications</h2>
 
 {% for paper in site.data.papers %}
-   <p>{{ paper.authors }} ({{paper.year}}) {{paper.title}} {{paper.publication}} <a href = "{{paper.link}}">link</a> <a href = "{{paper.file}}">file</a></p>
+   <p>{{ paper.authors }} ({{paper.year}}) {{paper.title}} {{paper.publication}} <a href = "{{paper.web}}">link</a> <a href = "{{paper.file}}">file</a></p>
 {% endfor %}
-
-<!--
-<h2>associations</h2>
-{% for forum in site.data.forums %}
-    {% if forum.type == "association"  %}
-       <p>{{forum.acronym}} {{ forum.name }} <a href= "{{forum.url}}">{{forum.url}}</a> {{forum.organisation}} {{forum.notes}}</p>
-    {% endif %}
-{% endfor %}
-
-<h2>conferences</h2>
-{% for forum in site.data.forums %}
-    {% if forum.type == "conference"  %}
-       <p>{{forum.acronym}} {{ forum.name }} <a href= "{{forum.url}}">{{forum.url}}</a> {{forum.organisation}} {{forum.notes}}</p>
-    {% endif %}
-{% endfor %}
-
-<h2>journals</h2>
-{% for forum in site.data.forums %}
-    {% if forum.type == "journal"  %}
-       <p>{{forum.acronym}} {{ forum.name }} <a href= "{{forum.url}}">{{forum.url}}</a> {{forum.organisation}} {{forum.notes}}</p>
-    {% endif %}
-{% endfor %} -->
