@@ -14,5 +14,8 @@ title: research
 <h2>publications</h2>
 
 {% for paper in site.data.papers %}
-   <p>{{ paper.authors }} ({{paper.year}}) {{paper.title}} {{paper.publication}} <a href = "{{paper.web}}">link</a> <a href = "{{paper.file}}">file</a></p>
+   <p>{{ paper.authors }} ({{paper.year}}) {{paper.title}} {{paper.publication}}
+       <a href = "{{paper.web}}">web</a>
+       <a href = "{{paper.file}}">pdf</a>
+   </p>
 {% endfor %}
