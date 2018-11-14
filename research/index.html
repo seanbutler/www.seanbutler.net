@@ -15,10 +15,10 @@ title: research
 
 {% for paper in site.data.papers %}
    <p>{{ paper.authors }} ({{paper.year}}) {{paper.title}} {{paper.publication}}
-        {% if page.web != "" %}
+        {% if page.web %}
             <a href = "{{paper.web}}">web link</a>
         {% endif %}
-        {% if paper.file != "" %}
+        {% if paper.file %}
             <a href = "{{paper.file}}">file</a>
         {% endif %}
    </p>
