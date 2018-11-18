@@ -1,53 +1,92 @@
+
+var renderer = new THREE.WebGLRenderer();
+renderer.setPixelRatio( window.devicePixelRatio );
+renderer.setSize( window.innerWidth, window.innerHeight );
+document.body.appendChild( renderer.domElement );
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+renderer.gammaInput = true;
+renderer.gammaOutput = true;
+
 var scene = new THREE.Scene();
-var camera = new THREE.PerspectiveCamera(60, 1.333, 0.1, 100);
 
-var canvas = document.querySelector("canvas");
-var renderer = new THREE.WebGLRenderer({canvas: canvas});
-// renderer.setClearColor(0xFFFFFF);
-// renderer.setClearColor(0);
+var camera = new THREE.PerspectiveCamera( 40, window.innerWidth/window.innerHeight, 0.1, 1000 );
+camera.position.set(0, 1, 3);
 
-var geometry;
-// geometry = new THREE.BoxGeometry(1, 1, 1);
-// geometry = new THREE.SphereGeometry(1, 7, 7);
-geometry = new THREE.IcosahedronBufferGeometry(1, 1);
-
-var material = new THREE.MeshBasicMaterial({
-    color: 0x000000
-});
-
-var edges = new THREE.EdgesGeometry( geometry );
-var lineMat = new THREE.LineBasicMaterial({
-	color: 0xFFFFFF,
-	linewidth: 2,
-	linecap: 'round', //ignored by WebGLRenderer
-	linejoin:  'round' //ignored by WebGLRenderer
-} );
-
-var line = new THREE.LineSegments( edges, lineMat);
-scene.add( line );
-
-var cube = new THREE.Mesh(geometry, material);
-scene.add(cube);
-
-camera.position.z = 2;
-
-function resize() {
-    var width = canvas.clientWidth;
-    var height = canvas.clientHeight;
-    if (width != canvas.width || height != canvas.height) {
-      renderer.setSize(width, height, false);
-      camera.aspect = width / height;
-      camera.updateProjectionMatrix();
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
     }
+    return array;
 }
 
-function render(time) {
-    time *= 0.002;
-    resize();
-    line.rotation.x = cube.rotation.x = time * 0.5;
-    line.rotation.y = cube.rotation.y = time * 0.2;
-    renderer.render(scene, camera);
-    requestAnimationFrame(render);
+var lightcolours = [0xff7700, 0x0077ff, 0xff0077, 0x7700ff, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF]
+var lightcolours2 = shuffleArray(lightcolours);
+
+var spotLight = new THREE.SpotLight( lightcolours2[0], 1 );
+
+spotLight.position.set( 0, 5, 0 );
+spotLight.castShadow = true;
+spotLight.angle = Math.PI / 4;
+spotLight.penumbra = 1;
+spotLight.decay = 10;
+spotLight.distance = 20;
+
+spotLight.shadow.mapSize.width = 512;
+spotLight.shadow.mapSize.height = 512;
+
+spotLight.shadow.camera.near = 1;
+spotLight.shadow.camera.far = 100;
+spotLight.shadow.camera.fov = 10;
+
+scene.add( spotLight );
+
+
+var material = new THREE.MeshPhongMaterial( { color: 0x7f7f7f } );
+var boxgeometry = new THREE.BoxGeometry( 1, 1, 1 );
+
+var box1 = new THREE.Mesh( boxgeometry, material );
+box1.position.set(-1, 1, -1);
+box1.castShadow = true;
+
+var box2 = new THREE.Mesh( boxgeometry, material );
+box2.castShadow = true;
+box2.position.set(1, 1, -1);
+
+scene.add( box1, box2 );
+
+var groundgeometry = new THREE.PlaneGeometry( 10, 10, 100 );
+var ground = new THREE.Mesh( groundgeometry, material );
+ground.rotation.x = 3.14159 * -0.5;
+ground.receiveShadow = true;
+ground.castShadow = false;
+scene.add( ground );
+
+
+var onResize = function () {
+    console.log("resize");
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+
+    renderer.setPixelRatio( window.devicePixelRatio );
+    renderer.setSize( window.innerWidth, window.innerHeight );
 }
 
-render();
+window.addEventListener( 'resize', onResize, false );
+
+
+var animate = function () {
+    requestAnimationFrame( animate );
+
+    box1.rotation.x += 0.01;
+    box1.rotation.z += 0.01;
+    box2.rotation.x += 0.01;
+    box2.rotation.z += 0.01;
+    renderer.render( scene, camera );
+};
+
+animate();
