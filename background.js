@@ -52,12 +52,16 @@ var boxgeometry = new THREE.BoxGeometry( 1, 1, 1 );
 var box1 = new THREE.Mesh( boxgeometry, material );
 box1.position.set(-1, 1, -1);
 box1.castShadow = true;
+box1.rotation.set(Math.random(), Math.random(), Math.random());
+box1.position.z = -4.5;
 
 var box2 = new THREE.Mesh( boxgeometry, material );
 box2.castShadow = true;
 box2.position.set(1, 1, -1);
+box2.rotation.set(Math.random(), Math.random(), Math.random());
+box2.position.z = -8.5;
 
-scene.add( box1, box2 );
+scene.add( box1, box2);
 
 var groundgeometry = new THREE.PlaneGeometry( 10, 10, 100 );
 var ground = new THREE.Mesh( groundgeometry, material );
@@ -86,6 +90,18 @@ var animate = function () {
     box1.rotation.z += 0.01;
     box2.rotation.x += 0.01;
     box2.rotation.z += 0.01;
+
+    box1.position.z += 0.05;
+    box2.position.z += 0.05;
+
+
+    if ( box1.position.z > 3.0 )
+        box1.position.z = -4.5 - ( Math.random() * 15.0);
+
+    if ( box2.position.z > 3.0 )
+        box2.position.z = -4.5 - ( Math.random() * 15.0);
+
+
     renderer.render( scene, camera );
 };
 
