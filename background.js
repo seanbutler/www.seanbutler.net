@@ -24,7 +24,7 @@ function shuffleArray(array) {
     return array;
 }
 
-var lightcolours = [0xff7700, 0x0077ff, 0xff0077, 0x7700ff, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF]
+var lightcolours = [0xff7700, 0x7700ff, 0x00ff77, 0xff0077, 0x77ff00, 0x0077ff]
 var lightcolours2 = shuffleArray(lightcolours);
 
 var spotLight = new THREE.SpotLight( lightcolours2[0], 1 );
@@ -50,9 +50,8 @@ var boxgeometry = new THREE.BoxGeometry( 1, 1, 1 );
 
 var box1 = new THREE.Mesh( boxgeometry, material );
 // box1.position.set(-1, 1, -1);
-box1.position.set((Math.random()*2)-1, 1, -Math.random()    );
+box1.position.set((Math.random()*2)-1, 1, -4.5 );
 box1.rotation.set(Math.random(), Math.random(), Math.random());
-box1.position.z = -4.5;
 box1.castShadow = true;
 
 scene.add( box1 );
@@ -63,7 +62,6 @@ ground.rotation.x = 3.14159 * -0.5;
 ground.receiveShadow = true;
 ground.castShadow = false;
 scene.add( ground );
-
 
 var onResize = function () {
     console.log("resize");

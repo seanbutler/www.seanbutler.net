@@ -16,22 +16,19 @@ h1, h2, h3 {
 }
 
 nav{
-    float: right;
     padding: 1em;
     border: 2px solid white;
 }
 
 .container {
     padding: 1em;
-    border: 2px solid white;
-     border-bottom: 0;
-
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 
 footer{
     padding: 1em;
     border: 2px solid white;
-
 }
 
 a {
