@@ -26,7 +26,6 @@ function shuffleArray(array) {
 
 var lightcolours = [0xff7700, 0x7700ff, 0x00ff77, 0xff0077, 0x77ff00, 0x0077ff]
 var lightcolours2 = shuffleArray(lightcolours);
-
 var spotLight = new THREE.SpotLight( lightcolours2[0], 1 );
 
 spotLight.position.set( 0, 5, 0 );
