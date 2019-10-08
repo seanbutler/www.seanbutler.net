@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Volcanic Island Generation"
-date:   2015-09-04 12:00:00 -0600
+date:   2019-09-04 12:00:00 -0600
 ---
 
 ![](/images/volcanic-islands.png)
-
 
 A little web sketch using three.js which generates volcanic style islands in an ocean. I wrote about this approach to appear in the upcoming PROCJAM Zine [Seeds](http://www.procjam.com/seeds/) 2019 edited by [@Jupiter_Hadley](https://twitter.com/Jupiter_Hadley).
 

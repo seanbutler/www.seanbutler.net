@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sin Wave Landscape"
-date:   2015-10-08 12:00:00 -0600
+date:   2019-10-08 12:00:00 -0600
 ---
 
 ![](/images/sin-landscape.png)
