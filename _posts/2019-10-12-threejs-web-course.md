@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "threejs web programming course"
-date:   2019-10-08 12:00:00 -0600
+date:   2019-10-12 12:00:00 -0600
 ---
 
 ![](/images/3dwebtechmodule.png)
