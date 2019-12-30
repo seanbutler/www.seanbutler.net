@@ -1,66 +1,60 @@
 html {
-    overflow: -moz-scrollbars-vertical;
-    overflow-y: scroll;
-    overflow-x:hidden;
+    height: 100%; 
 }
-
+  
 body {
-    margin:     auto;
-    /* max-width: 900px; */
-    font-size: 24px;
-    /* font-family: 'Source Code Pro', monospace; */
+    background: white;
+    color: black;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0px; 
 }
 
 h1, h2, h3, h4, h5, h6{
-    /* line-height: 1; */
-    /* font-family: Helvetica, Arial, sans-serif; */
-    /* font-family: 'Source Code Pro', monospace; */
-    font-size: 36px;
+    font-size: 100%;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: #000000; 
 }
 
+h1{
+    font-size: 72px;
+    margin: 30px auto;
+}
 
-nav{
-    width: 100%;
-    padding: 0em 0em 0em 0em ;
-    /* background: black; */
-    /* color: white; */
+h2{
+    font-size: 32px;
+    margin: 30px auto;
+}
+
+h3{
+    font-size: 24px;
+    margin: 18px auto;
+}
+
+#nav{
+    border-bottom: 1px solid #AAA;
 }
 
 .container {
-    padding: 1em 0em 1em 0em;
-    /* border: 1px solid red; */
     margin:     auto;
-    max-width: 900px;
-}
-
-footer{
-    margin:     auto;
+    padding: 1em 1em 1em 1em;
     max-width: 900px;
 }
 
 a {
-  text-decoration: none;
-  /* color: #666; */
+    text-decoration: underline;
+    color:#000;
 }
-
-nav .container {
-    max-width: 900px;
-    padding: 1em 0em 1em 0em;
-
-}
-
-nav a {
-    text-decoration: none;
-    /* color: white; */
-  }
 
 
 a[href]:hover {
-    text-decoration: underline;
+    color:#AAA;
 }
 
 a[href]:active {
-    /* color:#AAA; */
+    color:orange;
 }
 
 img {
@@ -71,8 +65,18 @@ img {
   body {
     color: white;
     background-color: black;
-    font-size:	36px;
+    font-size:	24px;
   }
+
+
+h1, h2, h3, h4, h5, h6{
+    font-size:	48px;
+
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: white; 
+}
 
   nav {
     color: black;
@@ -80,8 +84,11 @@ img {
     font-size:	36px;
   }
 
-  nav a {
-      text-decoration: none;
-      color: black;
+  a {
+      text-decoration: underline;
+      color: white;
     }
-}
+} 
+
+
+

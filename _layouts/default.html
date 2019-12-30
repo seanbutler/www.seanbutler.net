@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ page.title }}</title>
-		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+		<title>{{ page.title }} / sean butler</title>
 		<link rel="stylesheet" type="text/css" href="/css/mini.css">
 	</head>
 
 	<body>
 
-		<nav>
-			<div class="container">
-				<a href="/">hello</a>
-				<!-- <a href="/blog">blog</a> -->
-				<a href="/research">research</a>
-				<a href="/teaching">teaching</a>
-				<a href="/games">games</a>
-				<a href="/blog">blog</a>
-			</div>
-		</nav>
+		<div class="container" id = "nav">
+			<a href="/">hello</a>
+			<!-- <a href="/blog">blog</a> -->
+			<a href="/research">research</a>
+			<a href="/teaching">teaching</a>
+			<a href="/games">games</a>
+			<a href="/blog">blog</a>
+		</div>
 
 		<div class="container">
 			{{ content }}
 		</div>
 
 
-		<footer>
+		<div class="container">
 			<p>
 				<a href = "mailto:sean2.butler@uwe.ac.uk">email</a>
 				<a href = "https://people.uwe.ac.uk/Person/Sean2Butler">UWE</a>
@@ -38,6 +35,6 @@
 				UWE, Bristol, BS16 1QY. UK.
 			</p>
 
-		</footer>
-	</body>
+		</div class="container">
+		</body>
 </html>
