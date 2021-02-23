@@ -11,11 +11,11 @@ title: research
    <p>{{ paper.authors }} ({{paper.year}}) {{paper.title}} {{paper.publication}}
 
         {% if paper.web %}
-            <a href = "{{paper.web}}">web</a>
+            <a href = "{{paper.web}}">page</a>
         {% endif %}
 
         {% if paper.file %}
-            <a href = "{{paper.file}}">pdf</a>
+            <a href = "{{paper.file}}">file</a>
         {% endif %}
    </p>
 {% endfor %}
@@ -24,16 +24,25 @@ title: research
 <h2>articles</h2>
 
 {% for article in site.data.articles %}
-   <p>{{ article.authors }} ({{article.year}}) {{article.title}} in {{article.publication}} ed: {{article.editors}}.
+   <p>
+        {{ article.authors }} ({{article.year}}) {{article.title}}
+
+        {% if article.publication %}
+           in {{article.publication}} ed: {{article.editors}}
+        {% endif %}
+
+        {% if article.editors %}
+             {{article.publication}} ed: {{article.editors}}
+        {% endif %}
 
         {% if article.web %}
-            <a href = "{{article.web}}">web</a>
+                <a href = "{{article.web}}">page</a>
         {% endif %}
 
         {% if article.file %}
-            <a href = "{{article.file}}">pdf</a>
+            <a href = "{{article.file}}">file</a>
         {% endif %}
-   </p>
+    </p>
 {% endfor %}
 
 

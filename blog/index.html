@@ -4,9 +4,15 @@ title: blog
 ---
 <h1>{{ page.title }}</h1>
 
+<ul>
+
 {% for post in site.posts %}
 
-<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-({{ post.date | date_to_string }})<br />
+<li>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+({{ post.date | date_to_string }}) 
+</li>
 
 {% endfor %}
+
+</ul>

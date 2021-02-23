@@ -1,40 +1,31 @@
 html {
     height: 100%; 
+    overflow-y: scroll;
 }
   
 body {
+
     background: white;
     color: black;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: mono;
     height: 100%;
     margin: 0px; 
+    border: 0px; 
+    padding: 0px; 
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-size: 100%;
+    font-size: 150%;
     font-weight: 500;
     margin-top: 30px;
     margin-bottom: 5px;
-    color: #000000; 
 }
 
-h1{
-    font-size: 72px;
-    margin: 30px auto;
-}
-
-h2{
-    font-size: 32px;
-    margin: 30px auto;
-}
-
-h3{
-    font-size: 24px;
-    margin: 18px auto;
-}
 
 #nav{
-    border-bottom: 1px solid #AAA;
+    line-height: 200%;
+    font-size: 150%;
+    
 }
 
 .container {
@@ -42,6 +33,25 @@ h3{
     padding: 1em 1em 1em 1em;
     max-width: 900px;
 }
+
+li, p{
+    font-size: 120%;
+    line-height: 150%;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+    list-style-type:none;
+}
+
+.code {
+    /* background: #AAA; */
+    line-height: 150%;
+}
+
 
 a {
     text-decoration: underline;
@@ -78,16 +88,16 @@ h1, h2, h3, h4, h5, h6{
     color: white; 
 }
 
-  nav {
-    color: black;
-    background-color: white;
+  #nav {
+    background-color: black;
     font-size:	36px;
   }
 
-  a {
-      text-decoration: underline;
-      color: white;
-    }
+
+    a {
+        text-decoration: underline;
+        color: white;
+    }   
 } 
 
 
