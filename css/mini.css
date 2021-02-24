@@ -80,6 +80,7 @@ img {
         color: white;
         background-color: black;
         font-size:	32px;
+        line-height: 150%;
     }
 
 
@@ -88,11 +89,10 @@ img {
         font-weight: bold;
         color: white; 
         line-height: 300%;
-
     }
 
     #nav {
-
+        border-bottom: 3px solid white;
     }
 
     a {
