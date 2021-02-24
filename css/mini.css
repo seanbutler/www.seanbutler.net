@@ -3,13 +3,17 @@ html {
     overflow-y: scroll;
     font-size: 20px;
     line-height: 150%;
+    font-family: mono;
     /* border-top: 4px solid black; */
 }
 
 body {
     background: white;
     color: black;
+
     font-family: mono;
+    font-size: 20px;
+
     margin: 0px; 
     border: 0px; 
     padding: 0px; 
@@ -76,23 +80,32 @@ img {
 
 
 @media screen and (max-width: 992px) {
+
+    html {
+        height: 100%; 
+        overflow-y: scroll;
+        font-size:	48px;
+        line-height: 150%;
+        font-family: mono;
+    }
+
     body {
+        font-size:	48px;
+        line-height: 150%;
         color: white;
         background-color: black;
-        font-size:	32px;
-        line-height: 150%;
     }
 
 
     h1, h2, h3, h4, h5, h6{
-        font-size:	32px;
+        font-size:	48px;
         font-weight: bold;
         color: white; 
         line-height: 300%;
     }
 
     #nav {
-        border-bottom: 3px solid white;
+        border-bottom: 2px solid white;
     }
 
     a {
