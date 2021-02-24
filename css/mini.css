@@ -1,51 +1,51 @@
 html {
     height: 100%; 
     overflow-y: scroll;
+    font-size: 20px;
+    line-height: 150%;
+    /* border-top: 4px solid black; */
 }
-  
-body {
 
+body {
     background: white;
     color: black;
     font-family: mono;
-    height: 100%;
     margin: 0px; 
     border: 0px; 
     padding: 0px; 
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-size: 150%;
-    font-weight: 500;
-    margin-top: 30px;
-    margin-bottom: 5px;
+h1, h2, h3, h4, h5, h6 {
+    font-size:      20px;
+    line-height:    300%;
+    font-weight:    bold;
 }
 
-
-#nav{
-    line-height: 200%;
-    font-size: 150%;
-    
+#nav {
+    /* font-size: 120%; */
+    line-height: 150%;
 }
 
 .container {
     margin:     auto;
-    padding: 1em 1em 1em 1em;
-    max-width: 900px;
+    padding:    1em 1em 1em 1em;
+    max-width:  900px;
 }
 
-li, p{
-    font-size: 120%;
-    line-height: 150%;
+li, p {
+
 }
 
-ul{
-    padding-left: 0;
+
+ul {
+    /* padding-left: 0; */
 }
 
-li{
+
+li {
     list-style-type:none;
 }
+
 
 .code {
     /* background: #AAA; */
@@ -63,36 +63,37 @@ a[href]:hover {
     color:#AAA;
 }
 
+
 a[href]:active {
     color:orange;
 }
 
+
 img {
-    width: 100%
+    /* padding-left: 10%;  */
+    width: 80%
 }
+
 
 @media screen and (max-width: 992px) {
-  body {
-    color: white;
-    background-color: black;
-    font-size:	24px;
-  }
+    body {
+        color: white;
+        background-color: black;
+        font-size:	32px;
+    }
 
 
-h1, h2, h3, h4, h5, h6{
-    font-size:	48px;
+    h1, h2, h3, h4, h5, h6{
+        font-size:	32px;
+        font-weight: bold;
+        color: white; 
+        line-height: 300%;
 
-    font-weight: 500;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    color: white; 
-}
+    }
 
-  #nav {
-    background-color: black;
-    font-size:	36px;
-  }
+    #nav {
 
+    }
 
     a {
         text-decoration: underline;

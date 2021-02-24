@@ -5,16 +5,16 @@ title: games
 <h1>{{ page.title }}</h1>
 <div class="posts">
 
-<ul>
+    <ul>
 
-	{% for game in site.data.games %}
+        {% for game in site.data.games %}
 
-        <li>
-            {{ game.title }} ({{game.platform}})
-        </li>
+            <li>
+                {{ game.title }} ({{game.platform}})
+            </li>
 
-    {% endfor %}
+        {% endfor %}
 
-</ul>
+    </ul>
 
 </div>
