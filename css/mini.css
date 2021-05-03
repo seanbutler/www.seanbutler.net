@@ -4,7 +4,6 @@ html {
     font-size: 20px;
     line-height: 150%;
     font-family: monospace;
-    /* border-top: 4px solid black; */
 }
 
 body {
@@ -25,7 +24,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav {
-    /* font-size: 120%; */
     line-height: 150%;
 }
 
@@ -41,7 +39,6 @@ li, p {
 
 
 ul {
-    /* padding-left: 0; */
 }
 
 
@@ -51,7 +48,6 @@ li {
 
 
 .code {
-    /* background: #AAA; */
     line-height: 150%;
 }
 
@@ -82,41 +78,38 @@ img {
     border-radius: 50%;
 }
 
-
-
 .fade-in {
     animation: fadeIn ease 1s;
     -webkit-animation: fadeIn ease 1s;
     -moz-animation: fadeIn ease 1s;
     -o-animation: fadeIn ease 1s;
     -ms-animation: fadeIn ease 1s;
-    }
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
+}
 
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
 
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
 
 
 @media screen and (max-width: 992px) {
