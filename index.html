@@ -4,6 +4,16 @@ title: hello
 ---
 
 <h1>hello</h1>
-<p>My name is Sean Butler, a game developer, lecturer and researcher from England.</p>
-<p>Working at <a href = "https://people.uwe.ac.uk/Person/Sean2Butler">UWE, Bristol. UK.</a></p>
 
+<p>My name is Sean Butler, a game developer, lecturer and researcher from England. Working at <a href = "https://people.uwe.ac.uk/Person/Sean2Butler">UWE, Bristol. UK.</a></p>
+
+<h1>recent writings</h1>
+
+{% for post in site.posts limit:3 %}
+
+<li>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+({{ post.date | date_to_string }}) 
+</li>
+
+{% endfor %}

@@ -4,7 +4,7 @@ title:  "Debugging Compiler Datastructures"
 date:   2021-02-21 12:00:00 -0600
 ---
 
- 
+
 Students often come to me asking for help with their programming. Almost universally its not a question about how to subdivide the goal into smaller tasks, or about how to express their idea as code, mostly the questions are about debugging existing code.
 
 Generally my advise starts from:
