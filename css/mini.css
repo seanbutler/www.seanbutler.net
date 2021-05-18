@@ -1,44 +1,83 @@
 html {
     height: 100%; 
     overflow-y: scroll;
-    font-size: 20px;
-    line-height: 150%;
-    font-family: monospace;
+    font-size:      30px;
+    /* font-family: sans-serif; */
+    font-weight:    normal;
+
 }
 
 body {
-    background: white;
-    color: black;
-
-    font-size: 20px;
-
     margin: 0px; 
     border: 0px; 
     padding: 0px; 
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
-    font-size:      20px;
-    line-height:    300%;
-    font-weight:    bold;
+    font-size:      48px;
+    line-height:    64px;
+    
+  
+    font-family:    sans;
+    font-weight:    normal;
+    margin:         0px;
 }
+
+h1 {
+    /* font-weight:    bold; */
+    /* font-style:     italic; */
+    font-size:      64px;
+    line-height:    96px;
+
+    /* font-weight:    bold; */
+
+}
+
+
 
 #nav {
     line-height: 150%;
+    /* padding:    1em 0; */
+    color: orangered;
+
+}
+
+
+#name{
+    font-weight:    normal;
+    font-family:    sans-serif;
+    
+    margin:         0px;
+    margin-right:   5vh;
+    font-style:     italic;
+    font-size:      64px;
+    line-height:    96px;
+}
+
+#ftr {
+    line-height: 150%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
 }
 
 .container {
     margin:     auto;
-    padding:    1em 1em 1em 1em;
-    max-width:  900px;
+    padding:    1em;
+    max-width:  1200px;
+
 }
 
 li, p {
-
+    line-height: 220%;
+    /* font-weight:100; */
 }
 
 
 ul {
+    padding-left: 0;
 }
 
 
@@ -49,22 +88,25 @@ li {
 
 .code {
     line-height: 150%;
+    font-family: monospace;
 }
 
 
 a {
     text-decoration: underline;
-    color:#000;
+    color:black;
+    /* color: white; */
+
 }
 
 
 a[href]:hover {
-    color:#AAA;
+    color:orangered;
 }
 
 
 a[href]:active {
-    color:orange;
+    color:skyblue;
 }
 
 
@@ -77,75 +119,4 @@ img {
     width: 200px;
     border-radius: 50%;
 }
-
-.fade-in {
-    animation: fadeIn ease 1s;
-    -webkit-animation: fadeIn ease 1s;
-    -moz-animation: fadeIn ease 1s;
-    -o-animation: fadeIn ease 1s;
-    -ms-animation: fadeIn ease 1s;
-}
-
-@keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-
-@media screen and (max-width: 992px) {
-
-    html {
-        height: 100%; 
-        overflow-y: scroll;
-        font-size:	32px;
-        line-height: 150%;
-        font-family: monospace;
-    }
-
-    body {
-        font-size:	32px;
-        line-height: 150%;
-        color: white;
-        background-color: black;
-    }
-
-
-    h1, h2, h3, h4, h5, h6{
-        font-size:	32px;
-        font-weight: bold;
-        color: white; 
-        line-height: 300%;
-    }
-
-    #nav {
-        border-bottom: 2px solid white;
-    }
-
-    a {
-        text-decoration: underline;
-        color: white;
-    }   
-} 
-
-
 

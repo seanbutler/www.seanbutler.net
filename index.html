@@ -5,11 +5,18 @@ title: hello
 
 <h1>hello</h1>
 
-<p>My name is Sean Butler, a game developer, lecturer and researcher from England. Working at <a href = "https://people.uwe.ac.uk/Person/Sean2Butler">UWE, Bristol. UK.</a></p>
+<p>My name is Sean Butler, a game developer, lecturer and researcher from England. Working at <a href = "https://people.uwe.ac.uk/Person/Sean2Butler">UWE, Bristol.</a> When on campus I work out of Room 2Q20 or in a lab nearby.</p>
+<p> Send me emails at <a href = "mailto:sean2.butler@uwe.ac.uk">sean2.butler@uwe.ac.uk</a>.</p>
+
+<h1>dissertations</h1>
+
+<p>
+if you are a UWE student and wish me to supervise your disseration or masters thesis then great. get in touch and we'll see if we can find something in the area of generative technologies or programming languages or both preferably as they pertain to video games.
+</p>
 
 <h1>recent writings</h1>
 
-{% for post in site.posts limit:3 %}
+{% for post in site.posts limit:2 %}
 
 <li>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
