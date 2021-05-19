@@ -34,10 +34,11 @@ h1 {
 }
 
 .sidenav {
-    flex: 30%;
+    background-color: #F0F0F0;
 }
 
 .main {
+    /* border-left: 1px solid orange; */
     flex: 70%;
 }
 
@@ -79,11 +80,9 @@ a[href]:hover {
     color: rgb(255, 94, 0);
 }
 
-
 a[href]:active {
     color:skyblue;
 }
-
 
 img {
     width: 80%;
@@ -109,7 +108,7 @@ img {
     h1, h2, h3, h4, h5, h6 {
         /* font-size:      48px; */
         font-size:      7vw;
-        line-height:    120%;
+        /* line-height:    120%; */
         
         font-family:    sans-serif;
         font-weight:    normal;
@@ -119,7 +118,7 @@ img {
 
     h1 {
         font-size:      10vw;
-        line-height:    120%;
+        /* line-height:    120%; */
         color:white;
 
     }
@@ -142,6 +141,8 @@ img {
     
     .sidenav {
         flex: 100%;
+        background-color: #333;
+
     }
 
     .sidenav li
