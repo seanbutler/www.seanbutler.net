@@ -45,16 +45,16 @@ h1, h2, h3, h4, h5, h6 {
 .side ul    { margin: 0; padding: 0;  }
 .side li    { list-style-type: none; }
 
-.main{
+.main {
     flex: 80%;
 }
 
-.orange{
+.orange {
     font-style: italic;
     color:rgb(255, 128, 0);
 }
 
-#name{
+#name {
     font-weight:    normal;
     font-family:    Helvetica, Arial, sans-serif;
     font-style:     italic;
@@ -63,7 +63,6 @@ h1, h2, h3, h4, h5, h6 {
 li, p {
     line-height: 220%;
 }
-
 
 a {
     text-decoration: underline;
@@ -80,6 +79,7 @@ a[href]:active {
 
 img {
     width: 80%;
+    max-width: 900px;
 }
 
 pre {
@@ -92,7 +92,11 @@ code {
     font-family: monospace;
 }
 
-@media only screen and (max-width: 900px) 
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait)
 {
 
     body {
@@ -108,6 +112,11 @@ code {
         font-family:    sans-serif;
         font-weight:    normal;
         margin:         0px;
+
+    }
+
+    h2, h3, h4, h5, h6 {
+
         color:grey;
     }
 
@@ -124,6 +133,11 @@ code {
     a {
         /* text-decoration: underline; */
         color: white;
+    }
+
+   
+    a[href]:active {
+        color:orange;
     }
 
     .row{
@@ -161,5 +175,10 @@ code {
         border-left: 2px solid orange;
         padding: 0.25em;
         font-size: 0.75em;
+    }
+
+    .orange {
+        font-style: italic;
+        color:orange;
     }
 }
