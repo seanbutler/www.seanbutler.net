@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "embedding v8 for games a tutorial introduction"
+title:  "embedding v8 in games: a tutorial introduction"
 date:   2021-05-10 12:00:00 -0600
 ---
 
@@ -25,13 +25,9 @@ the current documentation for v8 is callenging. this is no doubt in part because
 
 beyond the initial hello world, two examples come with v8 for you to look at. one implements a javascript shell that allows you to interactivly type an execute js a bit like the python repl. the second example is related to a webserver with js being called in responce to c++ objects instantiated with data passed. neither of these two scenarios is in line with what we want when we make games, both are complicated and opaque making use of multiple embedded template types necessary for specific contexts, without a helpful explanation or discussion.
 
-
-##
-
-
 ### a skeleton script
 
-~~~
+```javascript
 
 // globals and initialisation
 
@@ -58,7 +54,81 @@ function Finish() {
     return;
 }
 
+```
+
+For the purposes of this tutorial we are going to have a main loop as follows...
+
+```cpp
+
+while (window.get().isOpen())
+{
+    // check all the window's events that were 
+    // triggered since the last iteration of 
+    // the loop
+
+    sf::Event event;
+    while (window.get().pollEvent(event))
+    {
+        processEvents();
+    }
+
+    scriptSystem.Continue();
+
+    window.Clear();
+
+    scriptSystem.Render();
+
+    window.Display();
+}
+
+```
+
+Given a script system which is basically a container for scripts and a simple interface. in practice it would be more, but hey. This one has three methods, when you call one on the script system it then calls the same method on all the scripts in its container.
+
+~~~cpp
+
+//
+// script.hpp
+//
+#pragma once
+#include <iostream>
+
+class Script;
+
+class ScriptSystem {
+
+public:
+
+    ScriptSystem(char* argv0) {
+    }
+
+    virtual ~ScriptSystem() {
+    }
+
+    void NewScript(std::string source);
+    
+    void Start();
+    void Continue();
+    void Render();
+
+protected:
+    std::vector<Script*> _script_vector;
+};
+
 ~~~
 
 
+~~~cpp
+
+//
+// script.cpp
+//
+void ScriptSystem::Continue() {
+
+    for(auto S : _script_vector){
+        S->Continue();
+    }
+}
+
+~~~
 

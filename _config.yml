@@ -4,9 +4,5 @@ markdown: kramdown
 
 
 collections:
-    experiments:
-        output: true
-        permalink: /:collection/:name
-        
     posts:
         output: true
