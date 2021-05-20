@@ -48,18 +48,17 @@ p {
 }
 
 .side { 
-    /* border: 1px solid green; */
     flex: 15%;
-    /* border-right: 1px solid orange; */
 }
 
 .lhs{
     background-color: lightgray;
+    float: right;   
+    text-align: right;  
 
 }
 .side ul {
-    float: right;   
-    text-align: right;  
+
     margin: 0; 
     padding: 0;  
 }
@@ -69,22 +68,17 @@ p {
 }
 
 .main {
-    /* border: 1px solid red; */
-
     flex: 60%;
 }
 
 .blogindex    { margin: 0; padding: 0;  }
-/* .main li    { line-height: normal;} */
 
 .blogindex li { 
-    /* line-height: normal; */
     list-style-type: none; 
 }
 
 .keywords { 
     line-height: 0;
-    /* list-style-type: none;  */
     color: grey;
 }
 
@@ -99,8 +93,6 @@ p {
     font-family:    Helvetica, Arial, sans-serif;
     font-style:     italic;
 }
-
-
 
 a {
     text-decoration: underline;
@@ -146,7 +138,6 @@ code {
 
     h1, h2, h3, h4, h5, h6 {
         font-size:      7vw;
-        
         font-family:    sans-serif;
         font-weight:    normal;
         margin:         0px;
@@ -154,7 +145,6 @@ code {
     }
 
     h2, h3, h4, h5, h6 {
-
         color:grey;
     }
 
@@ -169,7 +159,6 @@ code {
     }
 
     a {
-        /* text-decoration: underline; */
         color: white;
     }
 
@@ -188,7 +177,7 @@ code {
     .col{
         flex-direction:column;
         margin: 0;
-        padding: 1em;
+        padding: 0.5em;
     }
     
     .fullwidth{
@@ -219,4 +208,10 @@ code {
         font-style: italic;
         color:orange;
     }
+    .lhs{
+        background-color: black;
+        float: left;   
+        text-align: left;  
+    }
+    
 }
