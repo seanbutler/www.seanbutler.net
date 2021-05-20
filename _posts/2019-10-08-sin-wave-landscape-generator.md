@@ -2,6 +2,8 @@
 layout: post
 title:  "Sin Wave Landscape"
 date:   2019-10-08 12:00:00 -0600
+keywords:   just for fun 
+
 ---
 
 ![](/images/sin-landscape.png)

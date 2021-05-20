@@ -2,6 +2,8 @@
 layout: post
 title:  "Code Editing Inside A Web Page"
 date:   2019-10-31 12:00:00 -0600
+keywords:   impressive but quite simple to do 
+
 ---
 
 ![](/images/editable.png)

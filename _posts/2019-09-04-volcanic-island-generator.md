@@ -2,6 +2,7 @@
 layout: post
 title:  "Volcanic Island Generation"
 date:   2019-09-04 12:00:00 -0600
+keywords:   novel physical landscape generation 
 ---
 
 ![](/images/volcanic-islands.png)

@@ -2,6 +2,8 @@
 layout: post
 title:  "Simple Maze Generation"
 date:   2019-10-15 12:00:00 -0600
+keywords:   randomised depth first in javascript 
+
 ---
 
 ![](/images/maze.png)

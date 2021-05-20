@@ -2,6 +2,7 @@
 layout: post
 title:  "Resizable Array in C"
 date:   2020-01-12 12:00:00 -0600
+keywords:   simple efficient c vector undergrads
 ---
 
 Working on a compiler and virtual machine to get my hand back in language game. Compilers need list internally, list of symbols, instructions, memory etc. At the start of compilation we dont know how large they should be so its likely they will grow over the lifetime of the compilation. partly for portability and simplicity trying vanilla c only, also because this created an intimate understanding with the systems necessary. however, c has fixed length arrays, but no resizabe arrays or vectors.

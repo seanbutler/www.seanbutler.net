@@ -2,6 +2,7 @@
 layout: post
 title:  "Small Programming Language"
 date:   2021-05-05 12:00:00 -0600
+keywords: compiler bytescript integrated graphics SFML library
 ---
 
 Morris is a minor Programming Language for games and other realtime or reactive systems. Everything runs in parallel on lots of little virtual machines. Also integrated is SFML for sprites and windows etc.

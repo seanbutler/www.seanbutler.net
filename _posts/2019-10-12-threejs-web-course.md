@@ -2,6 +2,8 @@
 layout: post
 title:  "threejs web programming course"
 date:   2019-10-12 12:00:00 -0600
+keywords:   materials which walk you through getting started
+
 ---
 
 ![](/images/3dwebtechmodule.png)

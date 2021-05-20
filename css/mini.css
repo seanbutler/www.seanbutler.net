@@ -1,11 +1,8 @@
 html {
     height:         100%; 
     overflow-y:     scroll;
-    font-size:      2em;
+    font-size:      1.5em;
     font-weight:    normal;
-    /* background-color: white; */
-    /* color: black; */
-
 }
 
 body {
@@ -22,6 +19,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+li {
+    line-height: 180%;
+
+}
+
+p {
+    /* border-top: 1px solid red; */
+    line-height: 180%;
+}
+
 .row{
     display: flex;
     flex-direction: row;
@@ -37,17 +44,50 @@ h1, h2, h3, h4, h5, h6 {
 
 .fullwidth{
     flex: 100%;
+    text-align: center;
 }
 
 .side { 
+    /* border: 1px solid green; */
     flex: 15%;
+    /* border-right: 1px solid orange; */
 }
-.side ul    { margin: 0; padding: 0;  }
-.side li    { list-style-type: none; }
+
+.lhs{
+    background-color: lightgray;
+
+}
+.side ul {
+    float: right;   
+    text-align: right;  
+    margin: 0; 
+    padding: 0;  
+}
+
+.side li {
+    list-style-type: none; 
+}
 
 .main {
-    flex: 80%;
+    /* border: 1px solid red; */
+
+    flex: 60%;
 }
+
+.blogindex    { margin: 0; padding: 0;  }
+/* .main li    { line-height: normal;} */
+
+.blogindex li { 
+    /* line-height: normal; */
+    list-style-type: none; 
+}
+
+.keywords { 
+    line-height: 0;
+    /* list-style-type: none;  */
+    color: grey;
+}
+
 
 .orange {
     font-style: italic;
@@ -60,9 +100,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style:     italic;
 }
 
-li, p {
-    line-height: 220%;
-}
+
 
 a {
     text-decoration: underline;

@@ -2,6 +2,7 @@
 layout: post
 title:  "Debugging Compiler Datastructures"
 date:   2021-02-21 12:00:00 -0600
+keywords: make the system tell you what its doing 
 ---
 
 
