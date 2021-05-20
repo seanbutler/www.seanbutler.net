@@ -44,7 +44,7 @@ p {
 
 .fullwidth{
     flex: 100%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .side { 
@@ -52,11 +52,13 @@ p {
 }
 
 .lhs{
-    background-color: lightgray;
+    /* background-color: lightgray; */
     float: right;   
     text-align: right;  
 
 }
+
+
 .side ul {
 
     margin: 0; 
@@ -69,6 +71,7 @@ p {
 
 .main {
     flex: 60%;
+    /* background: lightgrey; */
 }
 
 .blogindex    { margin: 0; padding: 0;  }
