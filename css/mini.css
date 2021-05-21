@@ -113,7 +113,7 @@ p+ul{
 
 .title {
     font-style: italic;
-    color:rgb(255, 128, 0);
+    color: rgb(255, 128, 0);
 
 }
 
@@ -138,7 +138,8 @@ img {
 }
 
 pre {
-    border-left: 3px solid orange;
+    border-left: 3px solid rgb(255, 128, 0);
+    ;
     padding: 1em;
     border-radius: 1em;
 }
@@ -153,6 +154,12 @@ code {
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait)
 {
+
+    html {
+        background-color: black;
+        color:          white;
+        font-size:      4vw;
+    }
 
     body {
         margin: 0px; 
@@ -173,30 +180,27 @@ code {
         color:grey;
     }
 
-    h1 {
+    /* h1 {
         font-size:      10vw;
-    }
+    } */
 
-    html {
-        background-color: black;
-        color: white;
-        font-size:      6vw;
-    }
+
 
     a {
         color: white;
     }
 
-   
+    a[href]:hover {
+        color: rgb(255, 128, 0);
+    }
     a[href]:active {
-        color:orange;
+        color: rgb(255, 128, 0);
     }
 
     .row{
         display: flex;
         flex-direction: column;
         margin: 0;
-        
     }
     
     .col{
@@ -209,34 +213,52 @@ code {
         flex: 100%;
     }
     
-    .side { 
+    .lhs { 
         flex: 100%;
+        float: left;   
+        text-align: left;  
     }
-    .side ul    { margin: 0; padding: 0;  }
-    .side li    { display:inline-block; list-style-type: none; }
+
+    .lhs ul    
+    { 
+        border-left: 8px solid     rgb(255, 128, 0);
+        ; 
+        margin: 0; 
+        padding: 0;  
+    }
+    .lhs li    { padding-left: 0.5em; display:inline-block; list-style-type: none; }
     
+
+
     .main{
         flex: 100%;
     }
     
+
+    .rhs { 
+        flex: 100%;
+        background-color: black;
+        float: left;   
+        text-align: left;  
+    }
+
+
     img {
         width: 100%;
     }
 
     pre {
-        border-left: 2px solid orange;
+        border-left: 2px solid     rgb(255, 128, 0);
+        ;
         padding: 0.25em;
         font-size: 0.75em;
     }
 
     .orange {
         font-style: italic;
-        color:orange;
+        color:    rgb(255, 128, 0);
+        ;
     }
-    .lhs{
-        background-color: black;
-        float: left;   
-        text-align: left;  
-    }
+
     
 }
