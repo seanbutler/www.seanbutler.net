@@ -1,80 +1,106 @@
 html {
     height:         100%; 
     overflow-y:     scroll;
-    font-size:      1.5em;
-    font-weight:    normal;
+
 }
 
 body {
-    margin: 0px; 
-    border: 0px; 
-    padding: 0px; 
+    font-size:      150%;
+    margin:         0px; 
+    border:         0px; 
+    padding:        0px; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    line-height:    120%;
     font-family:    Helvetica, Arial, sans-serif;
     font-weight:    normal;
-    margin:         0px;
+    line-height:    160%;
+    margin:         0 0 0 0;
+    padding:        0 0 0 0;
 }
 
-
-li {
-    line-height: 180%;
-
+li, p {
+    line-height:        170%;
 }
 
-p {
-    /* border-top: 1px solid red; */
-    line-height: 180%;
+p+h1{
+    margin-top: 1em;
+    /* border: 1px dashed black; */
+}
+
+p+h2{
+    margin-top: 1em;
+    /* border: 1px dotted black; */
+}
+
+h1+h2{
+    margin-top: 0.5em;
+    /* border: 1px dotted black; */
+}
+
+h2+p{
+    margin-top: 0em;
+    /* border: 1px dotted black; */
+}
+
+p+ul{
+    margin-top: 2em;
+    /* border: 2px dashed black; */
 }
 
 .row{
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    
+    display:            flex;
+    flex-direction:     row;
+    margin:             0px 0px 0px 0px;    
+    padding:            0px 0px 0px 0px;    
+
 }
 
 .col{
-    flex-direction:column;
-    margin: 0;
-    padding: 1em;
+    /* border: 1px solid orange; */
+    flex-direction:     column;
+    margin:             0 0 0 0;
+    padding:            1em 0 0 1em;
 }
 
 .fullwidth{
-    flex: 100%;
+    flex:               100%;
     /* text-align: center; */
 }
 
-.side { 
-    flex: 15%;
-}
-
 .lhs{
+    flex:           20%;
     /* background-color: lightgray; */
     float: right;   
     text-align: right;  
-
+    padding-right: 1em;
 }
 
-
-.side ul {
-
-    margin: 0; 
-    padding: 0;  
+.rhs{
+    flex: 10%;
+    float: left;   
+    text-align: left;  
+    padding-left: 1em;
 }
 
-.side li {
-    list-style-type: none; 
+.lhs ul {
+    /* margin: 0;  */
+    /* padding: 0;   */
+}
+
+.lhs li {
+    list-style-type:none;     
 }
 
 .main {
-    flex: 60%;
+    flex: 70%;
     /* background: lightgrey; */
 }
 
-.blogindex    { margin: 0; padding: 0;  }
+.blogindex { 
+    margin: 0; 
+    padding: 0;  
+}
 
 .blogindex li { 
     list-style-type: none; 
@@ -85,17 +111,13 @@ p {
     color: grey;
 }
 
-
-.orange {
+.title {
     font-style: italic;
     color:rgb(255, 128, 0);
+
 }
 
-#name {
-    font-weight:    normal;
-    font-family:    Helvetica, Arial, sans-serif;
-    font-style:     italic;
-}
+
 
 a {
     text-decoration: underline;

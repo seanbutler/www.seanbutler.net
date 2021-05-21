@@ -93,7 +93,8 @@ to initialise v8 you have to call some static functions for their global side ef
     v8::V8::Initialize();
 
     v8::Isolate::CreateParams create_params;
-    create_params.array_buffer_allocator = v8::ArrayBuffer::Allocator::NewDefaultAllocator();
+    create_params.array_buffer_allocator = 
+            v8::ArrayBuffer::Allocator::NewDefaultAllocator();
     _isolate_ptr = v8::Isolate::New(create_params);
 
     if (_isolate_ptr == nullptr) {
@@ -142,15 +143,20 @@ as noted above, compile the code, store the result then run the code. we dont ac
 
 ```cpp
     // add a c++ function to the global context
-	v8::Local<v8::ObjectTemplate> global_template = v8::ObjectTemplate::New(GetIsolate());
+	v8::Local<v8::ObjectTemplate> global_template = 
+            v8::ObjectTemplate::New(GetIsolate());
 
-    global_template->Set(GetIsolate(), "log", v8::FunctionTemplate::New(GetIsolate(), LogCallback));
+    global_template->Set(GetIsolate(), 
+                    "log", 
+                    v8::FunctionTemplate::New(
+                            GetIsolate(), 
+                            LogCallback));
  ```
 
 ```cpp
     // Compile the source code
     v8::Local<v8::Script> compiledScript = 
-            v8::Script::Compile(context, source_code).ToLocalChecked();
+        v8::Script::Compile(context, source_code).ToLocalChecked();
 ```
 
 ```cpp
@@ -158,7 +164,8 @@ as noted above, compile the code, store the result then run the code. we dont ac
     v8::Local<v8::Value> result;
 
     if (!compiledScript->Run(context).ToLocal(&result)) {
-        v8::String::Utf8Value error(GetIsolate(), try_catch.Exception());
+        v8::String::Utf8Value error(GetIsolate(), 
+                                        try_catch.Exception());
         printf("ERROR %s\n", *error);
         return false;
     }
@@ -171,10 +178,13 @@ Now that its been compiled and run once, we can get access to the functions with
 ```cpp
 
     v8::Local<v8::Value> func_val;
-    v8::Local<v8::String> func_name = v8::String::NewFromUtf8Literal(GetIsolate(), "Continue");
+    v8::Local<v8::String> func_name = 
+        v8::String::NewFromUtf8Literal(GetIsolate(), "Continue");
 
-    if (!context->Global()->Get(context, func_name).ToLocal(&func_val) ||
-        !func_val->IsFunction()) {
+    if (!context->Global()->Get(context, 
+                                func_name).ToLocal(&func_val) 
+        || !func_val->IsFunction()) 
+    {
         return false;
     }
 
@@ -208,25 +218,29 @@ shut down the engine
     // globals and initialisation
 
     function Start() {
-        // i am called when the object is instantiated in a scene
+        // i am called when the object is 
+        // instantiated in a scene
         // there may be some housekeeping 
         return;
     }
 
     function Continue(deltaTime) {
-        // i am called every frame, inside that tight loop mentioned above
+        // i am called every frame, inside 
+        // that tight loop mentioned above
         // this is where gameplay might be implemented
         return;
     }
 
     function Render() {
-        // i am also called every frame, inside that tight loop mentioned above
+        // i am also called every frame, inside 
+        // that tight loop mentioned above
         // this is for code related to drawing
         return;
     }
 
     function Finish() {
-        // i am called when the object is destroyed, perhaps on scene end
+        // i am called when the object is destroyed, 
+        // perhaps on scene end
         return;
     }
 
@@ -322,7 +336,9 @@ public:
         v8::V8::Initialize();
 
         v8::Isolate::CreateParams create_params;
-        create_params.array_buffer_allocator = v8::ArrayBuffer::Allocator::NewDefaultAllocator();
+        create_params.array_buffer_allocator = 
+                v8::ArrayBuffer::Allocator::NewDefaultAllocator();
+
         _isolate_ptr = v8::Isolate::New(create_params);
 
         if (_isolate_ptr == nullptr) {
@@ -349,7 +365,7 @@ public:
     void Continue();
     void Render();
 
-    v8::Isolate* GetIsolate()                       {   return _isolate_ptr;   }
+    v8::Isolate* GetIsolate()     {   return _isolate_ptr;   }
 
 protected:
     v8::Isolate * _isolate_ptr;
