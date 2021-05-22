@@ -6,6 +6,9 @@ keywords: because games, we do things a little bit different
 ---
 
 
+<em>td;dr: walkthrough of the code to integrate v8 in a game update loop pattern. a link to the whole code on github is at the bottom.</em>
+
+
 ## introduction
 
 Some common architectures for building gameplay in video game engines involve integrating an external scripting language into the engine. Its a repeating pattern that exists across many industries. What separates the games from other situations are two respects. Firstly speed is a factor, secondly games are realtime reactive suimulations so they work by going around a loop.
@@ -48,22 +51,19 @@ To keep our lives simple and to mimic a game-like architecture the code will be 
  - Library Wrapper
    - more complicated, keeps access classes for library functions windows, sprites, etc 
 
-
-
 ## important v8 internals
 
 js is a memory managed environment with every entity that occupies memory being kept track of so it can be freed once it is no longer needed. this is a bit slower than the stack based approach we are used to in c++ but it is more convenient. however to interface between a managed environment like js and an unmanaged envirnment like c++ requires we jump through hoops. in effect whenever you use a garbage collected (GC) object from the js side you must also keep track of that objects execution environment its context. so, if we intend to have objects accessible from c++ then we must also have live references managing their existance so that if they are GC'd by v8 it doesnt crash your native code too.
 
 to this end v8 maintains its own templates for the major standard types, numbers, string, etc if you are going to access these kinds of variables then you must use them. it also provides several templates to express the lifetime and scope of these entities.
 
-
-- func 1
+<!-- - func 1
   - func 1
 - func 1
   - func 1
   - func 1
 - func 1
-  - func 1
+  - func 1 -->
   
 ## the process
 
@@ -107,8 +107,6 @@ _isolate_ptr is a member of the ScriptSystem class for which we provide a getter
 
 This way means if we instantiate multiple ScriptSystem classes the each has its own v8::isolate and is therefore full independant of the other.
 
-
-
 ## enter the main loop
 
 this part of our system isnt authentic, instead its a simple round robin event loop of the kind provided by SFML. in a production situation i would expect a thread pool or something more sophisticated.
@@ -134,12 +132,12 @@ this part of our system isnt authentic, instead its a simple round robin event l
     }
 ```
 
-as you can see we use the ScriptSystem to hide all the v8 gubbins away from our other code. Also notice there is a Start() which is called before the main loop, a Continue() called before the Render(). These are interleaved with sfml framework calls which handle the window and double buffering etc.
-
+We use the ScriptSystem to hide all the v8 gubbins away from our other code. Also notice there is a Start() which is called before the main loop, a Continue() called before the Render(). These are interleaved with other framework calls which handle the window and double buffering etc.
 
 ## first time, is special
 
-as noted above, compile the code, store the result then run the code. we dont actually call any of our functions accessed from the c++.
+The first time a script is run its a little different. The script system initialises a script, it compiles the code, stores the result then runs the code from the top. It doesnt actually call any of the functions accessed from the c++. All thleis sets up the execution context so that the declared variables, functions and globals are availble to successive function calls.
+
 
 ```cpp
     // add a c++ function to the global context
@@ -208,14 +206,23 @@ to do this you must call Exit on the v8::isolate. so inside the destructor of th
 
 shut down the engine
 
-## overview
+## scripts should have the following structure
 
+below you can see the structure of the javascript, it follows that used in MonoBehaviours from unity and similar scriping systems. 
 
 ```javascript
 
     // script.js
 
+    //
     // globals and initialisation
+    //
+
+    var blah=0;
+
+    function incr(x) {
+        return x+1;
+    }
 
     function Start() {
         // i am called when the object is 
@@ -246,130 +253,13 @@ shut down the engine
 
 ```
 
-For the purposes of this tutorial we are going to have a main loop as follows...
 
-```cpp
+## Conclusion
 
-while (window.get().isOpen())
-{
-    // check all the window's events that were 
-    // triggered since the last iteration of 
-    // the loop
-
-    sf::Event event;
-    while (window.get().pollEvent(event))
-    {
-        processEvents();
-    }
-
-    scriptSystem.Continue();
-
-    window.Clear();
-
-    scriptSystem.Render();
-
-    window.Display();
-}
-
-```
-
-Given a script system which is basically a container for scripts and a simple interface. in practice it would be more, but hey. This one has three methods, when you call one on the script system it then calls the same method on all the scripts in its container.
-
-```cpp
-
-//
-// script.hpp
-//
-#pragma once
-#include <iostream>
-
-class Script;
-
-class ScriptSystem {
-
-public:
-
-    ScriptSystem(char* argv0) { }
-    virtual ~ScriptSystem() { }
-
-    void NewScript(std::string source);
-    
-    void Start();
-    void Continue();
-    void Render();
-
-protected:
-    std::vector<Script*> _script_vector;
-};
-
-```
+While it might sound intimidating, check out the v8 source code into a dir on your system. I fount it entirely straightforward to follow [their instructions](https://v8.dev/docs/source-code) and it worked first time on my ubuntu system.
 
 
-```cpp
+This [github repo](https://github.com/seanbutler/sfmlv8) is where the entire code is available with a Makefile. There you can see how it all fits together as a whole. The makefile provided assumes you have a deps subdir under the project which has a symbolic link to where v8 is installed, so it can find the headers and link.
 
-//
-// script.cpp
-//
-void ScriptSystem::Continue() {
-
-    for(auto S : _script_vector){
-        S->Continue();
-    }
-}
-
-```
-
-
-```cpp
-
-class Script;
-
-class ScriptSystem {
-public:
-	ScriptSystem(char* argv0)
-    :   _isolate_ptr(nullptr)
-    {
-        v8::V8::InitializeICUDefaultLocation(argv0);
-        v8::V8::InitializeExternalStartupData(argv0);
-        _current_platform_ptr = v8::platform::NewDefaultPlatform();
-        v8::V8::InitializePlatform(_current_platform_ptr.get());
-        v8::V8::Initialize();
-
-        v8::Isolate::CreateParams create_params;
-        create_params.array_buffer_allocator = 
-                v8::ArrayBuffer::Allocator::NewDefaultAllocator();
-
-        _isolate_ptr = v8::Isolate::New(create_params);
-
-        if (_isolate_ptr == nullptr) {
-            std::cout << "ERROR " << std::endl;
-        }
-        _isolate_ptr->Enter();
-    }
-
-
-    virtual ~ScriptSystem() {
-        if (_isolate_ptr) {
-            _isolate_ptr->Exit();
-            _isolate_ptr->Dispose();
-            _isolate_ptr = 0;
-        }
-
-        v8::V8::Dispose();
-        v8::V8::ShutdownPlatform();
-    }
-
-    void NewScript(std::string source);
-    
-    void Start();
-    void Continue();
-    void Render();
-
-    v8::Isolate* GetIsolate()     {   return _isolate_ptr;   }
-
-protected:
-    v8::Isolate * _isolate_ptr;
-	std::unique_ptr<v8::Platform> _current_platform_ptr;    
-    std::vector<Script*> _script_vector;
-};
-```
+Good Luck.
+Any questions, message me. Am happy to help.
