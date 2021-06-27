@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "constructors and destructors in c++ part 1"
-date:   2020-06-28 09:00:00 -0100
+date:   2021-06-28 09:00:00 -0100
 keywords: constructors and destructors in c++
 ---
 
