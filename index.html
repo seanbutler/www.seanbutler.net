@@ -1,20 +1,52 @@
----
-layout: default
-title: hello
----
+<!DOCTYPE html>
+<html>
+<head>
 
-<!-- <h1>hello</h1>
-<p>My name is Sean Butler. Working at <a href = "https://people.uwe.ac.uk/Person/Sean2Butler">UWE, Bristol.</a> When on campus I work out of Room 2Q20 or in a lab nearby. Send me emails at <a href = "mailto:sean2.butler@uwe.ac.uk">sean2.butler@uwe.ac.uk</a>.</p>
+	<style>
+		html {
+			font-family: serif;
+			max-width: 120ch;
+			padding: 3em 1em;
+			margin: auto;
+			line-height: 1.75;
+		}
 
-<h1>dissertations</h1>
-<p> if you are a UWE student and wish me to supervise your disseration or masters thesis then great. get in touch and we'll see if we can find something in the area of generative technologies, languages or tools for games.</p> -->
+		h1 {
+			font-size: 4em;
+		}
 
-<h1>recent writings</h1>
-<ul>
-    {% for post in site.posts limit:5 %}
-    <li>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    ({{ post.date | date_to_string }}) 
-    </li>
-    {% endfor %}
-</ul>
+		p {
+			font-family: sans-serif;
+			font-size: 2em;
+		}
+	</style>
+
+	<title>sean butler</title>
+
+</head>
+
+<body>
+
+<h1>sean butler</h1>
+<p>
+	<a href = "mailto:butlersean@gmail.com">email</a>
+	<br />
+	<a href = "https://mastodon.social/@seanbutler">mastodon</a>
+	<br />
+	<a href = "https://twitter.com/butlersean">twitter</a>
+	<br />
+	<a href = "https://scholar.google.co.uk/citations?user=XicxPzcAAAAJ">google scholar</a>
+	<br />
+	<a href = "https://dblp.uni-trier.de/pers/hd/b/Butler:Sean">DBLP</a>
+	<br />
+	<a href = "https://github.com/seanbutler">github</a>
+	<br />
+	<a href = "https://fentlewoodlewix.itch.io/">itch</a>
+	<br />
+	<a href = "https://www.mobygames.com/developer/sheet/view/developerId,105067">mobygames</a>
+	<br />
+	<a href = "./SEANBUTLER_resume.pdf">resume</a>
+</p>
+
+</body>
+</html>
