@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
 	<style>
-
 		html {
-			font-family: helvetica, sans-serif;
-			font-weight: 100;
-			max-width: 100ch;
-			padding: 1em;
-			margin: auto;
-			line-height: 1.5;
+			/* max-width: 100ch; */
+			/* margin: auto; */
+			/* line-height: 1.5; */
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+
+		.centered-outside {
+			display:			flex;
+			align-items:		center;
+			justify-content:	center;
+			height:				100%;
+			/* border: 2px dashed magenta; */
+		}
+
+		.centered-inside {
+			height: auto;
+			/* border: 2px dotted magenta; */
 		}
 
 		h1 {
-			text-align: center;
-			font-size: 6em;
+			font-family: helvetica, sans-serif;
 			font-weight: 100;
-			color: rgb(44, 22, 0);
-
+			font-size: 6em;
+			color: rgb(58, 57, 57);
+			line-height: 0;
+			margin: 1em 0;
 		}
 
 		ul {
@@ -32,14 +52,14 @@
 
 
 		li {
-			margin: 0.5em 0 ;
+			margin: 0.25em 0 ;
 		}
 
 		a {
-			
-			margin: 2em 0 2em 0 ;
+			/* margin: 2em 0 2em 0; */
 			border: 2px solid transparent;
-			padding: 0 1em 0 1em;
+			padding: 0 2em 2px 2em;
+			/* width: 100%; */
 			border-radius: 1.5em;
 
 			color: #ff7700;
@@ -68,8 +88,6 @@
 			color: #FFF;
 			background-color: #ff7700;
 		}
-
-
 	</style>
 
 	<title>sean butler</title>
@@ -77,29 +95,38 @@
 </head>
 
 <body>
-<h1>sean butler</h1>
-<ul>
-	<li>
-		<a href="https://www.linkedin.com/in/seanbutler">linkedin</a>
-	</li>
-	<li>
-		<a href="https://scholar.google.co.uk/citations?user=XicxPzcAAAAJ">google scholar</a>
-	</li>
-	<li>
-		<a href="https://dblp.uni-trier.de/pers/hd/b/Butler:Sean">DBLP</a>
-	</li>
-	<li>
-		<a href="https://www.mobygames.com/developer/sheet/view/developerId,105067">mobygames</a>
-	</li>
-	<li>
-		<a href="https://github.com/seanbutler">github</a>
-	</li>
-	<li>
-		<a href="./SEANBUTLER_resume.pdf">resume</a>
-	</li>
-</ul>
 
-</p>
+	<div class="centered-outside">
+
+		<div class="centered-inside">
+
+			<h1>sean butler</h1>
+
+			<ul>
+				<li>
+					<a href="https://www.linkedin.com/in/seanbutler">linkedin</a>
+				</li>
+				<li>
+					<a href="https://scholar.google.co.uk/citations?user=XicxPzcAAAAJ">google scholar</a>
+				</li>
+				<li>
+					<a href="https://dblp.uni-trier.de/pers/hd/b/Butler:Sean">DBLP</a>
+				</li>
+				<li>
+					<a href="https://www.mobygames.com/developer/sheet/view/developerId,105067">mobygames</a>
+				</li>
+				<li>
+					<a href="https://github.com/seanbutler">github</a>
+				</li>
+				<li>
+					<a href="./SEANBUTLER_resume.pdf">resume</a>
+				</li>
+			</ul>
+
+		</div>
+		
+	</div>
 
 </body>
+
 </html>
