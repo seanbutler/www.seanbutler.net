@@ -9,11 +9,24 @@
 
 <body>
 
-  <h1>sean butler {{ page.title}} </h1>
+
+
+  <div class = container>
+
+    {% include header.html %}
+
+    {% include page_title.html %}
+
+    {% include navigation.html %}
+
 
   <section>
-    {{ content }}
+    <content>
+      {{ content }} 
+    </content>
   </section>
+
+</div>
 
 </body>
 
