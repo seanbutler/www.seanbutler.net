@@ -4,13 +4,13 @@ html
   padding: 1em;
   margin: auto;
   line-height: 2;
-  font-size: 150%;
+  font-size: 2em;
   font-family: monospace;
 } 
 
 h1,h2,h3,h4,h5,h6 {
   font-family: monospace;
-  font-size: 125%;
+  font-size: 100%;
   /* font-weight:lighter; */
   /* font-style: italic; */
 }

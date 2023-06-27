@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  "birthday gift for skyrim fans"
+excerpt_separator: <!--more-->
 
 ---
 
 best birthday gift this year (its a video game in-joke)
+<!--more-->
 
 ![](/images/burdens.png)
+
 
 elder scrolls-oblivion-skyrim players will remember the outstanding performance by the actress who played lydia. she managed to get a healthy dose of snark into her performance of this one line for the otherwise servile npc character. with outstanding and memorable results.
 
