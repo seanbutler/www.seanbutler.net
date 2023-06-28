@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "Maze Generation In Javascript"
+title:  "maze generation in javascript"
 excerpt_separator: <!--more-->
-
 ---
 
 [here](https://seanbutler.github.io/SimpleMazeGen/) is a simple javascript maze generator mostly to point students at should they need an example for any simple procedural generation projects.
@@ -12,8 +11,6 @@ excerpt_separator: <!--more-->
 ![](https://raw.githubusercontent.com/seanbutler/SimpleMazeGen/master/screenshot.png)
 
 the code is available and easily accessible via a [github repo](https://github.com/seanbutler/SimpleMazeGen).
-
-
 
 ###  links
 
