@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "chat gpt please generate the code for a simple video game"
+title:  "chat gpt please generate code for a small video game"
 excerpt_separator: <!--more-->
 
 ---
 
-it turns out that without too much prompt wrangling chat-gpt is capable of generating reasonable code for simple videogames. something on a par with an teenager or learning programmer such as 1st year undergrad.
+it turns out that without too much prompt wrangling chat-gpt is capable of generating reasonable code for simple videogames. <!--more-->
+something on a par with an teenager or learning programmer such as 1st year undergrad.
 
-<!--more-->
 
 ![](https://github.com/seanbutler/ChatGPTGameDev/blob/main/Prompt05.png?raw=true)
 

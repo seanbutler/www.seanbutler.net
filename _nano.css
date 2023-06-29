@@ -1,0 +1,50 @@
+html 
+{
+  max-width: 110ch;
+  padding: 3em 0;
+  margin: auto;
+  line-height: 2.2em;
+  font-size: 1.5em;
+  font-family: monospace;
+} 
+
+body{
+  /* margin:0;
+  border: 0;
+  padding: 0; */
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+}
+
+h4,h5,h6 {
+  color: #555;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+
+
+nav ul {
+  padding-left: 0px;
+  margin-left: 0px;
+  list-style: none;
+}
+
+
+content ul {
+  /* padding-left: 0px; */
+  /* margin-left: 0px; */
+  /* list-style: none; */
+}
+
+content img{
+  max-width: 100%;
+}
+
+

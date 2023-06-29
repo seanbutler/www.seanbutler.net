@@ -1,23 +1,29 @@
 <nav>
+<!-- <p> -->
 
-  <ul>
-
+  <!-- <ul> -->
     {% for item in site.data.internal_links %}
 
-      <li>
+      <!-- <li> -->
         <a href = "{{ item.uri }}">{{ item.label }}</a> 
-      </li>
-
+      <!-- </li> -->
+ 
     {% endfor %}
+
+  <!-- </ul> -->
+
+  <!-- <ul> -->
 
     {% for item in site.data.external_links %}
 
-      <li>
+      <!-- <li> -->
         <a href = "{{ item.uri }}">{{ item.label }}</a>  
-      </li>
-
+      <!-- </li> -->
+ 
     {% endfor %}
 
-  </ul>
+  <!-- </ul> -->
+
+<!-- </p> -->
 
 </nav>

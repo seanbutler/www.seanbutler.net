@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "birthday gift for skyrim fans"
+title:  "birthday gift for a skyrim fan"
 excerpt_separator: <!--more-->
 
 ---

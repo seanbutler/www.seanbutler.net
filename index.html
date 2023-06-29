@@ -4,14 +4,13 @@ title: home
 ---
 
 {% for post in site.posts %}
-
 <b>
-
-<p style="float: left;"><a href="{{ post.url }}">{{ post.title}}</a></p>
-<p style="float: right;"> {{ post.date | date_to_long_string: "ordinal" }}</p>
+    <p style="float: left;"><a href="{{ post.url }}">{{ post.title}}</a></p>
 </b>
-
+<em>
+    <p style="float: right;"> {{ post.date | date_to_long_string: "ordinal" }}</p>
+</em>
 <div style="clear: both;"></div>
-{{ post.excerpt }}
-{% endfor %}
 
+<!-- {{ post.excerpt }} -->
+{% endfor %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "an experiment in genetic programming by combining syntax trees"
+title:  "genetic programming experiment by combining syntax trees"
 excerpt_separator: <!--more-->
 ---
 

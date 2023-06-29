@@ -4,9 +4,9 @@ title:  "morris : yet another toy programming language"
 excerpt_separator: <!--more-->
 ---
 
-Morris is a simple programming language for making games. An experiment in minimalism while still being accessible and suitable for a purpose.Wherever possible if we could do without it then it has been left out. Or maybe its really just a toy for me to hack on.
+Morris is a simple programming language for making games. An experiment in minimalism while still being accessible and suitable for a purpose.<!--more-->
+ Wherever possible if we could do without it then it has been left out. Or maybe its really just a toy for me to hack on.
 
-<!--more-->
 
 ![](https://github.com/seanbutler/Morris/blob/main/screenshots/anim6.gif?raw=true)
 
