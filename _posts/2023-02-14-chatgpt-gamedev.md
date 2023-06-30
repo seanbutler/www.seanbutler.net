@@ -29,4 +29,4 @@ in the above example i forgot to say please. sorry, i for one welcome our new AI
 
 ### links
 
-https://github.com/seanbutler/ChatGPTGameDev
+- [https://github.com/seanbutler/ChatGPTGameDev](https://github.com/seanbutler/ChatGPTGameDev)

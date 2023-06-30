@@ -41,5 +41,4 @@ Did i mention its really just a toy? However, it is a toy you can make toys with
 
 ### links 
 
-https://github.com/seanbutler/Morris
-
+- [https://github.com/seanbutler/Morris](https://github.com/seanbutler/Morris)

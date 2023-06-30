@@ -1,23 +1,17 @@
 - label :   linkedin
   uri   :   https://www.linkedin.com/in/seanbutler
-  desc  :   this is a description
 
 - label :   google scholar
   uri   :   https://scholar.google.co.uk/citations?user=XicxPzcAAAAJ
-  desc  :   this is a description
 
 - label :   dblp
   uri   :   https://dblp.uni-trier.de/pid/39/1847.html
-  desc  :   this is a description
 
 - label :   mobygames
   uri   :   https://www.mobygames.com/person/105067/sean-butler/
-  desc  :   this is a description
 
 - label :   github
   uri   :   https://github.com/seanbutler
-  desc  :   this is a description
 
-- label :   cv
-  uri   :   /SEANBUTLER_resume.pdf
-  desc  :   this is a description
+# - label :   cv
+#   uri   :   /SEANBUTLER_resume.pdf

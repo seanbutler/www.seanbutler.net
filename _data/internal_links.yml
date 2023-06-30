@@ -1,7 +1,2 @@
 - label :   home
   uri   :   /
-  desc  :   this is a description
-
-# - label :   blog
-#   uri   :   /blog
-#   desc  :   this is a description

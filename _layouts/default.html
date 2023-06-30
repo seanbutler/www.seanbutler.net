@@ -1,17 +1,22 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/nano.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>sean butler</title>
+  <link rel="stylesheet" href="/nano.css">
+</head>
 
-  <body>
-      {% include header.html %}
-      {% include navigation.html %}
-      {% include page_title.html %}
-      {{ content }} 
-  </body>
+<body>
+  <h1>sean butler</h1>
+  {% include nav_int.html %}
+  <br />
+  <br />
+  {{ content }}
+  <br />
+  <br />
+  <br />
+  {% include nav_ext.html %}
+</body>
 
 </html>

@@ -1,17 +1,18 @@
 
 html {
-  max-width: 90ch;
+  max-width: 70ch;
   padding: 3em 1em;
   margin: auto;
   line-height: 2;
-  font-size: 1.5em;
-  /* font-size: 18px; */
+  /* font-size: 1.5em; */
+  font-size: 24px;
   font-family: sans-serif;
 }
 
 
 h1,h2,h3,h4,h5,h6 {
   margin: 1em 0 1em;
+  font-size: 24px;
 }
 
 nav {

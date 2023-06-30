@@ -10,9 +10,9 @@ excerpt_separator: <!--more-->
 
 ![](https://raw.githubusercontent.com/seanbutler/SimpleMazeGen/master/screenshot.png)
 
-the code is available and easily accessible via a [github repo](https://github.com/seanbutler/SimpleMazeGen).
+the code is available and easily accessible via a [github repo](https://github.com/seanbutler/SimpleMazeGen). its MIT licensed so use if you need. 
 
 ###  links
 
-https://seanbutler.github.io/SimpleMazeGen/
-
+- [https://seanbutler.github.io/SimpleMazeGen/](https://seanbutler.github.io/SimpleMazeGen/)
+- [https://github.com/seanbutler/SimpleMazeGen](https://github.com/seanbutler/SimpleMazeGen)

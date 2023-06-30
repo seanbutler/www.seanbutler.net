@@ -38,6 +38,6 @@ the code you can write yourself to build an intial entity looks like this.
 
 its somewhat c-like with some special restrictions to support the genetic programming. for example all functions take 1 parameter and return 1 parameter. this requires some flexability on the part of someone who builds an eve agent, but not insurmountable.
 
-### link
+### links
 
-https://github.com/seanbutler/Glynth
+- [https://github.com/seanbutler/Glynth](https://github.com/seanbutler/Glynth)
