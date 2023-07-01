@@ -1,28 +1,41 @@
 
 html {
   max-width: 70ch;
-  padding: 3em 1em;
   margin: auto;
   line-height: 2;
-  /* font-size: 1.5em; */
-  font-size: 24px;
-  font-family: sans-serif;
+  font-size: 1.3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(255, 245, 240);
 }
-
 
 h1,h2,h3,h4,h5,h6 {
-  margin: 1em 0 1em;
-  font-size: 24px;
+  font-style: italic;
+  /* margin: 0; */
+  /* padding: 0; */
+  line-height: normal;
 }
 
+h1{
+  font-size: 1.7em;
+}
+
+h2{
+  font-size: 2.0em;
+}
+
+h3, h4, h5, h6{
+  font-size: 1.5em;
+}
+
+
 nav {
-  /* border-top: 2px solid black; */
+  /* border: 2px solid black; */
 }
 
 
 p,ul,ol {
   margin-bottom: 1em;
-  color: #1d1d1d;
+  color: #222;
 } 
 
 img {
@@ -30,10 +43,4 @@ img {
 }
 
 a {
-  text-decoration: none;
-  color: blue;
-}
-
-a:hover {
-  text-decoration:underline;
-}
+  color: #1d1d1d}
