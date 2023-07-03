@@ -4,27 +4,44 @@ html {
   margin: auto;
   line-height: 2;
   font-size: 1.3em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(255, 245, 240);
+  font-family: sans-serif;
+
+  /* background-color: white; */
+  /* color: black; */
+
+  background-color: black;
+  color: #DDD;
+
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-style: italic;
+  /* font-style: italic; */
   /* margin: 0; */
   /* padding: 0; */
   line-height: normal;
+  color: #ff6000;
 }
 
 h1{
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 
 h2{
   font-size: 2.0em;
 }
 
-h3, h4, h5, h6{
-  font-size: 1.5em;
+h3 {
+  font-size: 1.8em;
+}
+
+
+h4, h5, h6{
+  font-size: 1.6em;
+}
+
+
+h5, h6{
+  font-size: 1.4em;
 }
 
 
@@ -34,13 +51,15 @@ nav {
 
 
 p,ul,ol {
-  margin-bottom: 1em;
-  color: #222;
-} 
-
-img {
+  /* margin-bottom: 1em; */
+  color: #DDD;
   width: 100%;
 }
 
 a {
-  color: #1d1d1d}
+  color: #DDD;
+}
+
+ img {
+  width: 100%;
+ }
