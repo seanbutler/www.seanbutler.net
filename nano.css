@@ -1,25 +1,13 @@
-
 html {
-  max-width: 70ch;
+  max-width: 80ch;
   margin: auto;
   line-height: 2;
   font-size: 1.3em;
-  font-family: sans-serif;
-
-  /* background-color: white; */
-  /* color: black; */
-
-  background-color: black;
-  color: #DDD;
-
 }
 
 h1,h2,h3,h4,h5,h6 {
-  /* font-style: italic; */
-  /* margin: 0; */
-  /* padding: 0; */
   line-height: normal;
-  color: #ff6000;
+  font-family: sans-serif;
 }
 
 h1{
@@ -35,31 +23,18 @@ h3 {
 }
 
 
-h4, h5, h6{
+h4 {
   font-size: 1.6em;
 }
-
 
 h5, h6{
   font-size: 1.4em;
 }
 
-
-nav {
-  /* border: 2px solid black; */
-}
-
-
 p,ul,ol {
-  /* margin-bottom: 1em; */
-  color: #DDD;
   width: 100%;
 }
 
-a {
-  color: #DDD;
-}
-
- img {
+img {
   width: 100%;
  }
