@@ -6,15 +6,25 @@
   <title>sean butler</title>
   <link rel="stylesheet" href="/nano.css">
   <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <h1>sean butler</h1>
-  {% include nav_int.html %}
-  <br />
-  <br />
-  {{ content }}
+  <header>
+    <h1>sean butler</h1>
+    {% include nav_int.html %}
+  </header>
 
+  <div class = "container">
+    {{ content }}
+  </div> 
+
+
+  <footer>
+    {% include nav_ext.html %}
+  </footer>
+  
 </body>
+
 
 </html>
