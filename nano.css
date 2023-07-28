@@ -54,6 +54,16 @@ h1, h2 {
       /* Margin equivalent to 1 character */
 }
 
+
+h1 {
+  font-size: 3ch; /* Increase font size for better readability on smaller screens */
+}
+
+h2 {
+  font-size: 4ch; /* Increase font size for better readability on smaller screens */
+}
+
+
 main {
   padding: 2ch;
                  /* Padding equivalent to 2 characters */
@@ -76,12 +86,13 @@ section {
   }
 
   h1 {
-      font-size: 2ch; /* Increase font size for better readability on smaller screens */
+      font-size: 3ch; /* Increase font size for better readability on smaller screens */
   }
 
   h2 {
       font-size: 3ch; /* Increase font size for better readability on smaller screens */
   }
+  
 }
 
 /* Images */
