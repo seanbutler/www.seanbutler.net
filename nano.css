@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  /* font-family: sans-serif; */
   background-color: var(--background-color);
   color: var(--text-color);
   font-size: 2ch; /* Set the base font size to 2 times the width of the '0' character */
@@ -33,43 +33,49 @@ header, footer {
 
   max-width: 80ch; /* Adjusted max-width to limit line width to about 80 characters */
   margin: 0 auto;
-  padding: 2ch; /* Padding equivalent to 2 characters */
+  padding: 2ch; 
+  /* Padding equivalent to 2 characters */
 
 }
 
 h1, h2 {
-  margin-bottom: 1ch; /* Margin equivalent to 1 character */
+  margin-bottom: 1ch;     
+      /* Margin equivalent to 1 character */
 }
 
 main {
-  padding: 2ch; /* Padding equivalent to 2 characters */
-  text-align: left; /* Align main content to the left within the central column */
+  padding: 2ch;
+                 /* Padding equivalent to 2 characters */
+  text-align: left;           /* Align main content to the left within the central column */
 }
 
 section {
   border: 0.1ch solid #ccc; /* Border width equivalent to 0.1 character */
-  padding: 1ch; /* Padding equivalent to 1 character */
-  margin-bottom: 2ch; /* Margin equivalent to 2 characters */
+  padding: 1ch;               
+  /* Padding equivalent to 1 character */
+  margin-bottom: 2ch;
+           /* Margin equivalent to 2 characters */
 }
 
 /* Mobile responsiveness */
 @media (max-width: 50em) {
   header, footer {
-      font-size: 2.5ch; /* Increase font size for better readability on smaller screens */
+      /* font-size: 2.5ch;  */
+      /* Increase font size for better readability on smaller screens */
   }
 
   h1 {
-      font-size: 6ch; /* Increase font size for better readability on smaller screens */
+      font-size: 2ch; /* Increase font size for better readability on smaller screens */
   }
 
   h2 {
-      font-size: 4ch; /* Increase font size for better readability on smaller screens */
+      font-size: 3ch; /* Increase font size for better readability on smaller screens */
   }
 }
 
 /* Images */
 img {
-  max-width: 100%; /* Set the images to take the full width of their container */
+  width: 100%; /* Set the images to take the full width of their container */
   height: auto; /* Maintain the aspect ratio of the images */
   display: block; /* Make the images behave as block elements to control their width */
   margin: 1ch 0; /* Add some vertical margin to images */
