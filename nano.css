@@ -1,104 +1,28 @@
-/* https://chat.openai.com/share/369f3867-a836-4856-95b3-d962bfa9565a */
 
 
-:root {
-  --background-color: #fafafa; /* Light mode background color */
-  --text-color: #333; /* Light mode text color */
+
+html {
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
 }
 
-a {
-  color: rgb(255, 96, 0);
+h1,h2,h3,h4,h5,h6 {
+  margin: 1em 0 1em;
 }
 
-
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-      --background-color: #333; /* Dark mode background color */
-      --text-color: #fafafa; /* Dark mode text color */
-  }
-
-
-  a {
-    color: rgb(255, 96, 0);
-  }
-  
+p,ul,ol {
+  margin-bottom: 2em;
+  color: #1d1d1d;
+  font-family: sans-serif;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-size: 2ch; /* Set the base font size to 2 times the width of the '0' character */
-  line-height: 1.5; /* Set the line height relative to the font size */
-}
-
-.container {
-  max-width: 80ch; /* Adjusted max-width to limit line width to about 80 characters */
-  margin: 0 auto;
-  padding: 2ch; /* Padding equivalent to 2 characters */
-}
-
-header, footer {
-
-  max-width: 80ch; /* Adjusted max-width to limit line width to about 80 characters */
-  margin: 0 auto;
-  padding: 2ch; 
-  /* Padding equivalent to 2 characters */
-
-}
-
-h1, h2 {
-  margin-bottom: 1ch;     
-      /* Margin equivalent to 1 character */
-}
-
-
-h1 {
-  font-size: 3ch; /* Increase font size for better readability on smaller screens */
-}
-
-h2 {
-  font-size: 4ch; /* Increase font size for better readability on smaller screens */
-}
-
-
-main {
-  padding: 2ch;
-                 /* Padding equivalent to 2 characters */
-  text-align: left;           /* Align main content to the left within the central column */
-}
-
-section {
-  border: 0.1ch solid #ccc; /* Border width equivalent to 0.1 character */
-  padding: 1ch;               
-  /* Padding equivalent to 1 character */
-  margin-bottom: 2ch;
-           /* Margin equivalent to 2 characters */
-}
-
-/* Mobile responsiveness */
-@media (max-width: 50em) {
-  header, footer {
-      /* font-size: 2.5ch;  */
-      /* Increase font size for better readability on smaller screens */
-  }
-
-  h1 {
-      font-size: 3ch; /* Increase font size for better readability on smaller screens */
-  }
-
-  h2 {
-      font-size: 3ch; /* Increase font size for better readability on smaller screens */
-  }
-  
-}
-
-/* Images */
 img {
   width: 100%; /* Set the images to take the full width of their container */
   height: auto; /* Maintain the aspect ratio of the images */
   display: block; /* Make the images behave as block elements to control their width */
-  margin: 1ch 0; /* Add some vertical margin to images */
+  margin: 1ch 0; 
+  /* Add some vertical margin to images */
 }
