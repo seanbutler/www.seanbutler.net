@@ -1,6 +1,4 @@
 
-
-
 html {
   max-width: 70ch;
   padding: 3em 1em;
@@ -26,3 +24,17 @@ img {
   margin: 1ch 0; 
   /* Add some vertical margin to images */
 }
+
+pre
+{
+  background: ;
+  border: 1px solid black;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+code {
+  /* color: green; */
+  font-family: monospace;
+  font-size: 1.25em;
+} 
