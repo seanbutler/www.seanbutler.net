@@ -9,6 +9,7 @@
 ---
 
 ![Copyleft All Wrongs Reserved](https://upload.wikimedia.org/wikipedia/commons/5/5c/Copyleft_All_Wrongs_Reserved.png)
+
 image: Wikipedia
 
 tucked away inside [this wikipedia page](https://en.wikipedia.org/wiki/Tiny_BASIC) on the software tinyBASIC is the origin of the term copyleft. there are *also* several bombshells about early open source and the power of freedom, openess and community. 
