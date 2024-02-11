@@ -7,11 +7,9 @@
   date  :   2023-09-01
 ---
 
-vanilla basic
+# vanilla basic
 
 - https://github.com/seanbutler/vanilla-basic
-
-
 
 
 ~~~ basic
