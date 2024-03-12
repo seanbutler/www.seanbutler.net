@@ -1,8 +1,0 @@
-
-name: Sean Butler
-markdown: kramdown
-
-
-collections:
-    posts:
-        output: true
