@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "morris : yet another toy programming language"
-excerpt_separator: <!--more-->
 ---
 
 Morris is a simple programming language for making games. An experiment in minimalism while still being accessible and suitable for a purpose.<!--more-->

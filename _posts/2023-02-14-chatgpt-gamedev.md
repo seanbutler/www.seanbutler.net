@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "chat gpt please generate code for a small video game"
-excerpt_separator: <!--more-->
+tags  :   science chat-gpt 
 
 ---
 
-it turns out that without too much prompt wrangling chat-gpt is capable of generating reasonable code for simple videogames. <!--more-->
+it turns out that without too much prompt wrangling chat-gpt is capable of generating reasonable code for simple videogames.
+
 something on a par with an teenager or learning programmer such as 1st year undergrad.
 
 

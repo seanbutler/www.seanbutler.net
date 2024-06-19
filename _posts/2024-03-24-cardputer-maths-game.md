@@ -1,10 +1,8 @@
 ---
   layout: post
-  excerpt_separator: <!--more-->
   title :   cardputer maths game for primary schooler
-  status:   private
-  uri   :   https://github.com/seanbutler/M5CardputerMathGame
   date  :   2024-03-24
+  tags  :   hobby
 ---
 
 ![](/images/IMG_0467.jpg)

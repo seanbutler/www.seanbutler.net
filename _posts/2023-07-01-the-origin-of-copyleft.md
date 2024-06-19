@@ -1,11 +1,11 @@
 ---
   layout: post
-  excerpt_separator: <!--more-->
   title :   the origin of the term copyleft
-  status:   private
   uri   :   https://en.wikipedia.org/wiki/Tiny_BASIC
   date  :   2023-07-01
   via   :   wikipedia
+  tags  :   hobby
+
 ---
 
 ![Copyleft All Wrongs Reserved](https://upload.wikimedia.org/wikipedia/commons/5/5c/Copyleft_All_Wrongs_Reserved.png)

@@ -1,10 +1,9 @@
 ---
   layout: post
-  excerpt_separator: <!--more-->
   title :   old school basic programming language
-  status:   private
   uri   :   https://github.com/seanbutler/vanilla-basic
   date  :   2023-09-01
+  tags  :   hobby
 ---
 
 
