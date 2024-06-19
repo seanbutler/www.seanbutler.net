@@ -15,7 +15,7 @@ Existing benchmarks of entity component sytems appear to use rather static loads
  2 more dynamic loads with the creation and removal of components along with some additional operations
 
 
-We forked and customised an existing benchmark system for gathering test results from code made in a range of programming languages that then compiling them into visualised graphs. The majority of the actual coding was done by my student [Cirtoyt](https://github.com/Cirtoyt) a graduate of UWE Games Tech. 
+We forked and customised an existing benchmark system for gathering test results from code made in a range of programming languages that then compiling them into visualised graphs. The majority of the actual coding was done by my student [Cirtoyt](https://github.com/Cirtoyt) a graduate of UWE Games Tech. Thanks Conrad! 
 
 # Results
 

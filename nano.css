@@ -1,16 +1,16 @@
 
 html {
   max-width: 80ch;
-  padding: 3em 1em;
+  padding: 1em 0em;
   margin: auto;
-  line-height: 1.75;
-  font-size: 1.25em;
+  line-height: 2;
+  font-size: 1.5em;
+  font-family: sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: sans-serif;
-  
-}
+/* h1,h2,h3,h4,h5,h6 {
+  font-family: sans-serif;  
+} */
 
 nav > ul {
   margin: 0;
@@ -29,7 +29,6 @@ nav > ul > li {
 p,ul,ol {
   /* margin-bottom: 2em; */
   /* color: #1d1d1d; */
-  font-family: sans-serif;
 }
 
 img {
@@ -42,7 +41,7 @@ img {
 
 pre
 {
-  background: ;
+  /* background: ; */
   border: 1px solid black;
   border-radius: 1em;
   padding: 1em;
