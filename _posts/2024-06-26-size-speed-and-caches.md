@@ -8,7 +8,7 @@
 
 ### tldr
 
-intro to cache coherency supported by a timed code ![repo](https://github.com/seanbutler/cache-speed-tests) and graphs 
+intro to cache coherency supported by a timed code [repo](https://github.com/seanbutler/cache-speed-tests) and graphs 
 
 ### modern cpu
 
@@ -120,16 +120,3 @@ to write code that is more friendly to cached cpus we have a few options.
 - if you have an algorithm which is to run fast, then try to make it fit within the ICACHE (32k)
 - if you have large amounts of data and code perhaps consider an appraoach which keeps it all within one of the larger caches for the duration of its need.
 
-
-
-
-
-
-
-
-
-
-
-
-
-as we have seen on modern desktops there are generally 3 levels of caching each increasing in size but also slower. the are chained in a cascade with reads and writes working through each cache out to ram.
