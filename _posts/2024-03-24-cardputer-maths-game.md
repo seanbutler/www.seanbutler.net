@@ -5,13 +5,11 @@
   tags  :   hobby
 ---
 
+The youngest offspring in our house enjoys maths, but like most/all children is subject to temptation and easily distracted, so ive been reticent to give them unfettered access to an ipad or iphone.
+
+Written for the M5Cardputer with this game they can challenge themselves on arithmetic or times tables etc, but there are no other games available and its not the end of the world if its lost or dropped.
+
 ![](/images/IMG_0467.jpg)
-
-A maths game written for the new M5 Cardputer. Suitable for a primary/middle schooler.
-
-This approach because I can give it to my offspring, the games are focussed on her needs, also there is no internet or other similar distractions.
-
-Also the device is cheap enough that they can have it and take it anywhere and its not the end of the world if they lose it.
 
 Loosely based on the kind of maths outlined in the uk key stage 1 & 2 curriculum in the UK.
 
