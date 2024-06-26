@@ -8,7 +8,7 @@
 
 ### tldr
 
-intro to cache coherency with timed code examples and graphs 
+intro to cache coherency with timed code example ![repo](https://github.com/seanbutler/cache-speed-tests) and graphs 
 
 ### modern cpu
 
@@ -89,7 +89,7 @@ in all cases the caches have a LINESIZE (the size of the read write unit) which 
 
 ### do your own tests
 
-on github i have a repo with two experiments the source is avaiable so you can run on your own machine to see how they work for you.
+on github ![i have a repo](https://github.com/seanbutler/cache-speed-tests) with two experiments the source is avaiable so you can run on your own machine to see how they work for you.
 
 ####  same work over larger data area
 
