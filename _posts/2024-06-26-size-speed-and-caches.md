@@ -1,7 +1,7 @@
 ---
   layout:   post
   title :   size, speed and order tradeoffs  
-  date  :   2024-03-27  
+  date  :   2024-06-26  
   tags  :   cmake cpp L1 L2 cache fast  
 ---
 
