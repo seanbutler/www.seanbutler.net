@@ -8,7 +8,7 @@
 
 ### tldr
 
-intro to cache coherency supported by a timed code [repo](https://github.com/seanbutler/cache-speed-tests) and graphs 
+intro to cache coherency supported by a cpp code [repo](https://github.com/seanbutler/cache-speed-tests) with timing graphs
 
 ### modern cpu
 
