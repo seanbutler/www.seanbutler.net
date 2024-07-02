@@ -2,7 +2,7 @@
   layout:   post
   title :   docker skeleton repo
   date  :   2024-03-27  
-  tags  :   minmal skeleton repo v8 sfml cmake cpp
+  tags  :   docker cmake cpp repo
 ---
 
 I dont know about you, but ive often found that starting with new tech can be problematic. Not because the tech itself is too complicated but configuring your machine to kick off the project is a poorly documented part of the process. Generally repos are getting better at it and there are some good examples. But its not the reponsability of the team developing a virtual machine or graphics library to explain how to set it up with your particular build system.

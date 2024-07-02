@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "great gift for a skyrim fan"
-excerpt_separator: <!--more-->
-tags  :   lol gamer skyrim oblivion lydia 
+tags  :   skyrim 
 
 ---
 

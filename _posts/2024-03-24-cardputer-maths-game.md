@@ -2,7 +2,7 @@
   layout: post
   title :   cardputer maths game for primary schooler
   date  :   2024-03-24
-  tags  :   hobby
+  tags  :   cardputer c m5stack selected
 ---
 
 The youngest offspring in our house enjoys maths, but like most/all children is subject to temptation and easily distracted, so ive been reticent to give them unfettered access to an ipad or iphone.

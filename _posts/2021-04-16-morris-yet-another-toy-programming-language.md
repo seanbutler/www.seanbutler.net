@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "morris : yet another toy programming language"
+tags: compiler cpp
 ---
 
 Morris is a simple programming language for making games. An experiment in minimalism while still being accessible and suitable for a purpose.<!--more-->

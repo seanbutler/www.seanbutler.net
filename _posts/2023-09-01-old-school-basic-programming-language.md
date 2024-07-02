@@ -1,9 +1,8 @@
 ---
   layout: post
   title :   old school basic programming language
-  uri   :   https://github.com/seanbutler/vanilla-basic
   date  :   2023-09-01
-  tags  :   hobby
+  tags  :   basic interpreter cpp
 ---
 
 

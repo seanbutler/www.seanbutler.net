@@ -1,0 +1,23 @@
+---
+layout: default
+title: tags
+---
+
+<h2>tags</h2>
+
+<ul>
+
+    {% for tag in site.tags %}
+    <li><a id = "{{ tag[0] }}">{{ tag[0] }}</a>
+
+        <ul>
+            {% for post in tag[1] %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a>
+            {{ post.date | date: "%Y-%m-%d" }}
+        </li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+
+</ul>

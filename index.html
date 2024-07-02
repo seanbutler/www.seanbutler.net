@@ -2,14 +2,38 @@
 layout: default
 ---
 
-<ul>
-{% for post in site.posts %}
+{% for tag in site.tags %}
+{% if tag[0] == "sticky" %}
 
-<li>
-    <a href="{{ post.url }}">{{ post.title}}</a> {{ post.date | date_to_long_string: "ordinal" }} 
-</li>
 
+{% for post in tag[1] %}
+
+<h1>{{ post.title}}
+<!-- <small>(sticky post)</small> -->
+</h1>
+{{ post.content}}
+
+{% endfor %}
+{% endif %}
 {% endfor %}
 
 </ul>
 
+
+<h2>selected posts</h2>
+
+<ul>
+
+    {% for tag in site.tags %}
+    {% if tag[0] == "selected" %}
+
+    {% for post in tag[1] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+    {% endfor %}
+
+    {% endif %}
+    {% endfor %}
+
+</ul>

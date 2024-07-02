@@ -2,7 +2,7 @@
   layout:   post
   title :   v8 sfml skeleton repo
   date  :   2024-03-22
-  tags  :   minmal skeleton repo docker cmake cpp
+  tags  :   repo v8 sfml cmake cpp
 ---
 
 Any sufficiently advanced technology has a learning curve that is steep (with apologies to Clarke). Plenty of tutorials exist but there comes a time when you step beyond the intro tutorial and build your own project from scratch. Or integrate this new tech into your existing project.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "chat gpt please generate code for a small video game"
-tags  :   science chat-gpt 
+tags  :   chat-gpt selected
 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "multi language entity component system benchmark experiment"
 date: 2021-09-20
-tags: science
+tags: cpp rust ecs
 ---
 
 Experimental Comparison of C++ Rust and Go and their most populat entity component systems.

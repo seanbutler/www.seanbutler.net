@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "tiny javascript adventure engine"
-tags: hobby
+tags: teaching
 ---
 
 to create [text adventure](https://fentlewoodlewix.itch.io/bantum) games, simply [edit some JSON](https://github.com/seanbutler/TinyJavascriptAdventureEngine/blob/master/SimpleAdventureGame/gamedata.js) which contains descriptions of places and some options for what the player might do or in what direction they might go. 

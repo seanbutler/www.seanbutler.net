@@ -1,10 +1,8 @@
 ---
   layout: post
   title :   the origin of the term copyleft
-  uri   :   https://en.wikipedia.org/wiki/Tiny_BASIC
   date  :   2023-07-01
-  via   :   wikipedia
-  tags  :   hobby
+  tags  :   history
 
 ---
 

@@ -1,2 +1,8 @@
 - label :   home
   uri   :   /
+
+- label :   blog
+  uri   :   /blog/
+
+- label :   tags
+  uri   :   /tags/
