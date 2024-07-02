@@ -2,7 +2,7 @@
   uri   :   /
 
 - label :   blog
-  uri   :   /blog/
+  uri   :   /blog
 
 - label :   tags
-  uri   :   /tags/
+  uri   :   /tags
