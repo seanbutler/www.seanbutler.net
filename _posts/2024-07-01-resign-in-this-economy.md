@@ -8,7 +8,7 @@
 
 ## omg
 
- "resign in this economy you must be mad!". no, but resigning from a 'good' job in an environment of layoffs could be considered a weird choice to make, which im happy to discuss in a call.
+ "resign in this economy you must be mad!". maybe, resigning from a 'good' job in an environment of layoffs could definately be considered a weird choice to make. which im happy to discuss in a call.
 
 ## feed the roots or squeeze the lemon?
 
