@@ -6,3 +6,6 @@
 
 - label :   tags
   uri   :   /tags
+
+- label :   cv/resume
+  uri   :   /SeanButler_CurriculumVitae.pdf

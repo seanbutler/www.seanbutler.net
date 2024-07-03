@@ -2,7 +2,7 @@
   layout:   post
   title :   people process product!  
   date  :   2024-07-01  
-  tags  :   sticky
+  tags  :   team process management 
 ---
 
 
@@ -28,8 +28,5 @@ the third side of the coin (huh?) is data driven process management which has on
 
 the fear of their use can be alleviated by opening the books and revealing all the tools and process, but most importantly using it to support success not determine failure, the latter will cause team members to disengage. in my experience data driven processes can accelerate teams by helping leads understand how to refactor the processes better and team members where to spend their time better. 
 
-
 - people, process & product, you cant lead a team to greatness unless you focus on all three.
-
-take a look at my [cv/resume](/SeanButler_CurriculumVitae.pdf) and [linked in profile](https://www.linkedin.com/in/seanbutler) where others will tell you their experience of working with me and how i impacted the team. 
 

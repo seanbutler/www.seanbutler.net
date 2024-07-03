@@ -13,5 +13,5 @@
 - label :   github
   uri   :   https://github.com/seanbutler
 
-# - label :   cv
-#   uri   :   /SEANBUTLER_resume.pdf
+- label :   cv/resume
+  uri   :   /SeanButler_CurriculumVitae.pdf
