@@ -22,7 +22,11 @@
     {% assign tags = page.tags %}
 
     {% for tag in tags %}
-    <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
+
+    <!-- <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a> -->
+    <i>
+      {{tag}}
+    </i>
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
 
