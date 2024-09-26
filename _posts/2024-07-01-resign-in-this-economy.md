@@ -2,7 +2,7 @@
   layout:   post
   title :   available for work!  
   date  :   2024-07-01  
-  tags  :   sticky
+  tags  :   resignation quit
 ---
 
 
