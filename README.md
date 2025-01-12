@@ -1,6 +1,8 @@
-# seanbutler.github.io
-best github site ever!
+# best github site ever!
 
  - no but seriously the site style and layout is open source, you can use it as you like.
  - links back are appreciated but not necessary.
- - the site contents is mine, you cant use it.
+ - the actual site contents (posts, articles etc) is mine, you cant use it.
+
+source available here
+https://github.com/seanbutler/www.seanbutler.net/
