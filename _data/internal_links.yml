@@ -1,11 +1,11 @@
 - label :   home
-  uri   :   /
+  uri   :   /index.html
 
 - label :   blog
-  uri   :   /blog
+  uri   :   /blog.html
 
 - label :   tags
-  uri   :   /tags
+  uri   :   /tags.html
 
 - label :   cv/resume
   uri   :   /SeanButler_CurriculumVitae.pdf
