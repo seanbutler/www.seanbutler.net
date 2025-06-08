@@ -13,3 +13,5 @@
 - label :   email
   uri   :   mailto:butlersean@gmail.com
 
+- label :   about
+  uri   :   /about.html 

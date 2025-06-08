@@ -1,0 +1,13 @@
+- label : libre office
+  uri : https://www.libreoffice.org/
+  notes : LibreOffice is a powerful, free, and open-source office suite developed by The Document Foundation. It includes a range of applications for word processing, spreadsheets, presentations, vector graphics, databases, and formula editing—namely. LibreOffice emphasizes user freedom, privacy, and cross-platform compatibility, running on Windows, macOS, and Linux. Major tool makers use a variety of approaches to lock in users. One of the most pervasive is using proprietary file formats. Microsoft and other vendors have done this for years as one of the methods to create a default monopoly in the minds of users. LibreOffice supports a wide variety of file formats, including Microsoft Office documents, making it a flexible alternative for users seeking a cost-free solution. 
+
+- label :   jekyll
+  uri   :   https://jekyllrb.com/
+  notes :   Jekyll is a simple, static site generator for blogs and other kinds of sites. Written in Ruby, it takes plain text files—written in formats like Markdown or HTML—and transforms them into a complete static website, ready to be served by a web server. Easily integrated with GitHub Pages, its easy to deploy sites directly from a repository without needing a database or complex backend.
+
+- label :   goat counter
+  uri   :   https://www.goatcounter.com
+  notes :   GoatCounter is a privacy-focused, open-source web analytics tool designed to be a lightweight alternative to services like Google Analytics. It tracks basic metrics such as page views, referrers, and screen sizes without using cookies or collecting personal data, making it GDPR- and privacy-friendly by default. Being privacy-conscious I want want simple, transparent insights into website traffic without sharing all the data with the advertising monopolies.
+
+
