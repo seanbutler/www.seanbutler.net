@@ -50,12 +50,6 @@ The [linked](https://github.com/seanbutler/NeuralNetwork_In_Cpp) repo contains a
 
 #### take a look here
 
-https://github.com/seanbutler/NeuralNetwork_In_Cpp
+[https://github.com/seanbutler/NeuralNetwork_In_Cpp](https://github.com/seanbutler/NeuralNetwork_In_Cpp)
 
 
-
-
-
-
-
-## 
