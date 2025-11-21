@@ -1,6 +1,3 @@
-- label : libre office
-  uri : https://www.libreoffice.org/
-  notes : Open-source office suite developed by The Document Foundation. It includes applications for word processing, spreadsheets, presentations, vector graphics, databases, and formula editing. The Document Foundation emphasizes user freedom, privacy, and cross-platform compatibility, running on Windows, macOS, and Linux. Major tool makers use a variety of approaches to lock in users. One of the most pervasive is using proprietary file formats. Microsoft and other vendors have done this for years as one of the methods to create a default monopoly in the minds of users. LibreOffice supports a wide variety of file formats, including Microsoft Office documents, making it a flexible alternative for users seeking a cost-free solution. I used it to layout my curriculum vitae / resume.
 
 - label :   jekyll
   uri   :   https://jekyllrb.com/
