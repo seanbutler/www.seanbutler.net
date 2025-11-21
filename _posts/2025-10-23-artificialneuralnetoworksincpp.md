@@ -2,7 +2,7 @@
 layout: post
 title:  "neural network in c++"
 date: 2025-10-23
-tags: neural-network ANN NN c++ ML
+tags: neural-network ANN NN c++ ML selected
 ---
 
 
