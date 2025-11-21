@@ -41,10 +41,10 @@ The [linked](https://github.com/seanbutler/NeuralNetwork_In_Cpp) repo contains a
 
 #### giving you easy configuration of 
 
-- layers: Network architecture (input → hidden → output)
-- learning_rate: How fast the network learns (0.001 - 0.01 typical)
-- epochs: Number of training iterations
-- activation: Activation function ("sigmoid" or "relu")
+- **layers:** Network architecture (input → hidden → output)
+- **learning_rate:** How fast the network learns (0.001 - 0.01 typical)
+- **epochs:** Number of training iterations
+- **activation:** Activation function ("sigmoid" or "relu")
 
 
 
