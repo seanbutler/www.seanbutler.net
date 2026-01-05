@@ -1,0 +1,19 @@
+---
+layout: default
+title: tags
+---
+
+<h2>projects</h2>
+
+
+
+<h3>tech used to make this site</h3>
+
+    <ul>
+        {% for item in site.data.tech_used %}
+        <li><a href="{{ item.uri }}">{{ item.label }}</a>
+            <p>{{ item.notes }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+

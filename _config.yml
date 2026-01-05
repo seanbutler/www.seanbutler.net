@@ -6,3 +6,9 @@ markdown: kramdown
 collections:
     posts:
         output: true
+    projects:
+        output: true
+        permalink: /projects/:title/
+
+
+

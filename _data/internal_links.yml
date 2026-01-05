@@ -10,6 +10,9 @@
 - label :   cv/resume
   uri   :   /SeanButler_CurriculumVitae.pdf
 
+- label :   projects
+  uri   :   /projects.html
+
 - label :   email
   uri   :   mailto:butlersean@gmail.com
 
