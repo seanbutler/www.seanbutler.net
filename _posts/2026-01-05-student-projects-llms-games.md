@@ -6,7 +6,7 @@ tags: msc game student llm npc ai
 
 ---
 
-### Students on the Games Engineering 
+### Student Projects 
 
 Students on the Games Engineering MSc at Warwick University in the UK are kicking off their dissertation work this month. Im supporting a number this year. Its great work partly because you get to study several super interesting topics and also its nice to see the students rise to a new level.
 
