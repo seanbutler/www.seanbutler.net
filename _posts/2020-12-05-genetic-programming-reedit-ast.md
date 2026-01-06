@@ -2,6 +2,7 @@
 layout: post
 title:  "genetic programming experiment by combining syntax trees"
 tags: genetic compiler selected
+projects: lang
 ---
 
 Written for generation of simple video games, but generally usable for any realtime simulation where you want to investigate evolution of agents with movement and avoidance.

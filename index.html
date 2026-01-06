@@ -20,7 +20,21 @@ layout: default
 </ul>
 
 
-<h2>selected posts</h2>
+<h2>projects</h2>
+
+
+<ul>
+{% for p in site.projects %}
+  <li>
+    <a href="{{ p.url }}">{{ p.title }}</a>
+    <!-- <p>{{ p.excerpt }}</p> -->
+  </li>
+{% endfor %}
+</ul>
+
+
+
+<h2>selected blog posts</h2>
 
 <ul>
 

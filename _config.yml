@@ -9,6 +9,6 @@ collections:
     projects:
         output: true
         permalink: /projects/:title/
-
-
-
+    writings:
+        output: true
+        permalink: /writings/:title/

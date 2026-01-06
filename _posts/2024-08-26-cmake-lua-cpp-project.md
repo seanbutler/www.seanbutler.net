@@ -3,6 +3,8 @@
   title :   a better way to integrate lua into your project with cmake 
   date  :   2024-08-26  
   tags  :   lua cmake cpp skeleton repo
+  projects: lang
+
 ---
 
 
