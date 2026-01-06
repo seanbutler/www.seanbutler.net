@@ -6,9 +6,11 @@ tags: msc game student llm npc ai
 
 ---
 
-## LLM and Game Agents 
+### Students on the Games Engineering 
 
 Students on the Games Engineering MSc at Warwick University in the UK are kicking off their dissertation work this month. Im supporting a number this year. Its great work partly because you get to study several super interesting topics and also its nice to see the students rise to a new level.
+
+### LLMs and Game Agents
 
 Two areas of interest with myself and the current cohort are using LLMs in video game NPCs. There is a paper from Georgia Tech [A Survey on Large Language Model-Based Game Agents](https://arxiv.org/pdf/2404.02039) which should be invaluable to any student looking into this area.
 
@@ -25,6 +27,6 @@ Overall it looks **very** like the Agent Based architectures from when AI was la
 A more specific and popular paper is [Park et al 2024 Generative Agents: Interactive Simulacra of Human Behavior
 ](https://arxiv.org/abs/2304.03442) ![Screen Grab of Paper Front Matter](/images/Screenshot%202026-01-06%20132707.png)
 
-I'd totally reccommend anyone who is interested in this exciting new area of video game work to read both these papers.
+I'd totally reccommend anyone who is interested in this exciting area of video game work to read both these papers.
 
 
