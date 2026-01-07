@@ -19,7 +19,8 @@ As far as original contribution goes the authors create a generic model for LLM 
 
 Be wary though, the field is new, provides industry ready demos for employment and super easy to get started with (the proverbial low hanging fruit). However the flip side is exciting fluff is easy to make. Its much harder to push things forward in a formal way.
 
-- https://doi.org/10.48550/arXiv.2404.02039
+- [https://doi.org/10.48550/arXiv.2404.02039](https://doi.org/10.48550/arXiv.2404.02039)
+
 
 
 #### Park et al (2023) Generative Agents: Interactive Simulacra of Human Behavior
@@ -33,6 +34,6 @@ Of particular value to a student (though its a double edged sword) is the demo, 
 
 The authors completed an experimental analysis by removing the various parts of the cognitive architecture and reviewing the 'believability' of the agents. In doing so they showed that 4 parts are necessary.
 
-- https://doi.org/10.48550/arXiv.2304.03442
+- [https://doi.org/10.48550/arXiv.2304.03442](https://doi.org/10.48550/arXiv.2304.03442)
 
 
