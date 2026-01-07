@@ -27,6 +27,6 @@ Overall it looks **very** like the Agent Based architectures from when AI was la
 A more specific and popular paper is [Park et al 2024 Generative Agents: Interactive Simulacra of Human Behavior
 ](https://arxiv.org/abs/2304.03442) ![Screen Grab of Paper Front Matter](/images/Screenshot%202026-01-06%20132707.png)
 
-I'd totally reccommend anyone who is interested in this exciting new area of video game work to read both these papers.
+I'd totally reccommend anyone who is interested in this exciting area of video game work to read both these papers.
 
 

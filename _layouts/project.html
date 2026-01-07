@@ -24,29 +24,6 @@
 
     {{content}}
 
-    {% assign writings_found = false  %}
-    {% for w in site.writings %}
-      {% if w.projects contains project %}
-        {% assign writings_found = true %}
-      {% endif %}
-    {% endfor %}
-
-    {% if writings_found == true %}
-      <h2>Project Writings</h2>
-      <ul>
-      {% for w in site.writings %}
-      {% if w.projects contains project %}
-          <li><a href="{{ w.url }}">{{ w.title }}</a></li>
-      {% endif %}
-      {% endfor %}
-      </ul>
-
-    {% endif %}
-
-
-
-
-
     {% assign posts_found = false  %}
 
     {% for post in site.posts %}
@@ -59,7 +36,7 @@
 
     {% if posts_found == true %}
 
-      <h2>Related Blog Posts</h2>
+      <h2>Blog Posts</h2>
       <ul>
       {% for post in site.posts %}
         {% if post.projects contains project %}
@@ -71,8 +48,24 @@
     {% endif %}
 
 
+    {% assign writings_found = false  %}
+    {% for w in site.writings %}
+      {% if w.projects contains project %}
+        {% assign writings_found = true %}
+      {% endif %}
+    {% endfor %}
 
+    {% if writings_found == true %}
+      <h2>Other Writings</h2>
+      <ul>
+      {% for w in site.writings %}
+      {% if w.projects contains project %}
+          <li><a href="{{ w.url }}">{{ w.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+      </ul>
 
+    {% endif %}
 
   </main>
 
