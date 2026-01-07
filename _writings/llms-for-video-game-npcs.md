@@ -7,7 +7,7 @@ projects:
 
 
 
-#### Hu et al (2024) A Survey on Large Language Model-Based Game Agents
+### Hu et al (2024) A Survey on Large Language Model-Based Game Agents
 
 ![](/images/Screenshot%202026-01-07%20133512.png)
 
@@ -23,7 +23,7 @@ Be wary though, the field is new, provides industry ready demos for employment a
 
 
 
-#### Park et al (2023) Generative Agents: Interactive Simulacra of Human Behavior
+### Park et al (2023) Generative Agents: Interactive Simulacra of Human Behavior
 
 ![](/images/Screenshot%202026-01-07%20133546.png)
 
