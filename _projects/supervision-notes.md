@@ -67,6 +67,8 @@ This means the dissertation at Masters level requires  similar output to the Bac
 
 This requires more reading and a considering with an analytical and critical mind to discover the limits of, or flaws in, what has been done.
 
+---
+
 ### Curated entry points into some popular research areas for dissertation students
 
 Here are some student facing notes, intros to the research areas they are looking into:
