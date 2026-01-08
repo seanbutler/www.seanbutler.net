@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Student Dissertaion Supervision Notes
+title: Student Dissertatspion Supervision Notes
 slug: supervision
 tags: dissertations bachelors masters student bsc msc
 ---
