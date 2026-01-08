@@ -16,7 +16,7 @@ Its predicatable, well understood and has been extensivly  written about.
 
 https://en.wikipedia.org/wiki/Perlin_noise
 
-Its due to this popularity that I really reccommend that you **dont use this as the central technology of your dissertation**. Complete tutorials exist online showing you how to build realistic-ish landscapes with very little effort in modern game engines. Indeed [Unity has a built in command](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise.html) to generate it.
+Its due to this popularity that I really reccommend that you **dont use this as the central technology of your dissertation**. The reason is, complete tutorials exist online showing you how to build realistic-ish landscapes with very little effort in modern game engines. Indeed [Unity has a built in command](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise.html) to generate it.
 
 
 ~~~
@@ -34,7 +34,9 @@ for (float y = 0.0F; y < noiseTex.height; y++)
 
 ~~~
 
-So, to demonstrate sufficient learning at dissertation level you need to move your work far beyond this. Perhaps noise like this exists within your submission, its a great tool for naturalistic seeming textures, shapes and movement, but implementing it shouldnt be the main focus of your work (unless you have something really special in mind). 
+So, to demonstrate sufficient learning at dissertation level you need to move your work beyond this. 
+
+Perhaps perlin noise like this exists within your submission, its a great tool for naturalistic seeming textures, shapes and movement, but implementing it shouldnt be the main focus of your work (unless you have something really special in mind). 
 
 
 ### Model Synthesis (also Wave Function Collapse)
