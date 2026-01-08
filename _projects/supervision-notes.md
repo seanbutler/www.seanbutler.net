@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Supervision Notes
+title: Student Dissertaion Supervision Notes
 slug: supervision
-tags: dissertations
+tags: dissertations bachelors masters student bsc msc
 ---
 
 
@@ -31,7 +31,7 @@ For completion of a Bachelor's degree with honours in the United Kingdom there a
 
 #### What this means for a Bachelors Dissertation
 
-There are ways of achieveing this for yourself. It more or less involves 
+There are ways of achieveing this for yourself which more or less involve:
 1. Reading and understanding some research (peer reviewed academic journals or conferences) papers on the topic you want to investigate
 2. Analysing then developing arguments based on this reading
 3. Developing a scientific or at least quantitative inquiry of some kind
@@ -39,7 +39,6 @@ There are ways of achieveing this for yourself. It more or less involves
 
 
 #### Masters Level Dissertation
-
 
 The standard for Masters is as you might expect higher. Still a similar engagement with forefront of their area, but this time a more critical understanding is required.
 
@@ -59,8 +58,14 @@ The standard for Masters is as you might expect higher. Still a similar engageme
 
 #### What this Means for your Masters Dissertation
 
-This means the dissertation at Masters level requires a similar output to the Bachelors, except the amount which is adjacent to the forefront of your field should be greater, the understanding of the topic should be deep or fundamental. You should be able to critique what you learn, and propose new ideas. 
+This means the dissertation at Masters level requires  similar output to the Bachelors. **Except**:
 
+1. the proportion which is adjacent to the forefront of your field should be greater
+2. the understanding of the topic should be deep or fundamental
+3. you should be able to critique what you learn 
+4. finally propose new ideas based on this work 
+
+This requires more reading and a considering with an analytical and critical mind to discover the limits of, or flaws in, what has been done.
 
 ### Curated entry points into some popular research areas for dissertation students
 
