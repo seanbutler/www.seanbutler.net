@@ -6,6 +6,9 @@ projects:
 ---
 
 
+> First please make sure you have read the [supervision notes](https://www.seanbutler.net/projects/supervision/) on expectations of learning at different levels 
+
+
 ### Perlin Noise
 
 Perlin noise is the goto approach for undergrads (and more generally) when developers want to build a nice large landscape algorithmically. Its predicatable, well understood and has been extensivly written about. 
@@ -22,29 +25,30 @@ So, to demonstrate sufficient learning at dissertation level you need to move yo
 
 Model Synthesis more popularly known as Wave Function Collapse is is a popular approach to generating large scale self similar landscapes from minimal data. Indeed there are so many materials on it online that the challenge for a Masters Student is to find a way to demonstrate the apropriate level of learning. If you are considering a dissertation making use of this at MSc level then you should degfinately either have it as a minor tool in a greater system or otherwise consider a way to innovate or extend in this area.  
 
-![](/images/Screenshot%20of%20Model%20Synthesis%20-%20Paul%20Merrell.png)
 
-#### Core
+#### Original Work
 
 - https://paulmerrell.org/research/
 - https://paulmerrell.org/wp-content/uploads/2021/06/model_synthesis.pdf
 - https://paulmerrell.org/wp-content/uploads/2021/06/thesis.pdf
+
+#### Easier to Grok
+
 - https://en.wikipedia.org/wiki/Model_synthesis
 - https://github.com/mxgmn/WaveFunctionCollapse
 
+
 #### Successive Innovations and Applications
 
-**Using Wave Function Collapse and Other Algorithms** 
-- https://arxiv.org/abs/2308.07307
-- https://www.iccs-meeting.org/archive/iccs2025/papers/159090105.pdf
-- https://ouci.dntb.gov.ua/en/works/4zob5GKl/
-
-**For Navigation Rather than Generation**
-- https://www.jsr.org/index.php/path/article/view/1626
-
-**WFC Over Graphs rather than Grids**
-- https://www.jstage.jst.go.jp/article/transinf/E103.D/8/E103.D_2019EDP7295/_pdf
-- https://ieeexplore.ieee.org/document/8848019
+- **Using Wave Function Collapse and Other Algorithms** 
+  - https://arxiv.org/abs/2308.07307
+  - https://www.iccs-meeting.org/archive/iccs2025/papers/159090105.pdf
+  - https://ouci.dntb.gov.ua/en/works/4zob5GKl/
+- **For Navigation Rather than Generation**
+  - https://www.jsr.org/index.php/path/article/view/1626
+- **WFC Over Graphs rather than Grids**
+  - https://www.jstage.jst.go.jp/article/transinf/E103.D/8/E103.D_2019EDP7295/_pdf
+  - https://ieeexplore.ieee.org/document/8848019
 
 
 ### Generative Adversarial Neural Networks
@@ -62,4 +66,7 @@ Basically Deep Convoluted Generative Adversarial Networks can generate landscape
 ### Conferences on PGC
 
 https://pcgworkshop.com/database.php
+
+
+
 
