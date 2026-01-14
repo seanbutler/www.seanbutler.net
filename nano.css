@@ -40,12 +40,27 @@ img {
 
 pre
 {
-  /* background: ; */
-  border: 1px solid black;
-  border-radius: 1em;
-  padding: 1em;
+  background-color: #EFE;
+  /* margin: 1em 0 0 10%; */
+
+  border-left: 0.5em solid #AFA;
+  padding: 0.5em 1em; 
+  max-width: 80%;
+
+  /* border: 1px solid black; */
+  /* border-radius: 1em; */
+  /* padding: 1em; */
 }
 
 code {
   font-family: monospace;
+} 
+
+
+blockquote {
+  background-color: #EEF;
+  /* margin: 1em 0 0 10%; */
+  border-left: 0.5em solid #AAF;
+  padding: 0.5em 1em; 
+  max-width: 80%;
 } 
