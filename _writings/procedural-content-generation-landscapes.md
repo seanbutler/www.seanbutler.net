@@ -8,40 +8,23 @@ projects:
 
 ### Perlin Noise
 
-Perlin noise is the goto approach for undergrads (and more generally) when developers want to build a nice large landscape algorithmically.
+Perlin noise is the goto approach for undergrads (and more generally) when developers want to build a nice large landscape algorithmically. Its predicatable, well understood and has been extensivly written about. 
 
-Its predicatable, well understood and has been extensivly  written about. 
-
-![noise sample](/images/perlin.png)
-
-https://en.wikipedia.org/wiki/Perlin_noise
+- https://en.wikipedia.org/wiki/Perlin_noise
 
 Its due to this popularity that I really reccommend that you **dont use this as the central technology of your dissertation**. Complete tutorials exist online showing you how to build realistic-ish landscapes with very little effort in modern game engines. Indeed [Unity has a built in command](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise.html) to generate it.
-
-
-~~~
-
-for (float y = 0.0F; y < noiseTex.height; y++)
-{
-    for (float x = 0.0F; x < noiseTex.width; x++)
-    {
-        float xCoord = xOrg + x / noiseTex.width * scale;
-        float yCoord = yOrg + y / noiseTex.height * scale;
-        float sample = Mathf.PerlinNoise(xCoord, yCoord);
-        pix[(int)y * noiseTex.width + (int)x] = new Color(sample, sample, sample);
-    }
-}
-
-~~~
 
 So, to demonstrate sufficient learning at dissertation level you need to move your work far beyond this. Perhaps noise like this exists within your submission, its a great tool for naturalistic seeming textures, shapes and movement, but implementing it shouldnt be the main focus of your work (unless you have something really special in mind). 
 
 
+
 ### Model Synthesis (also Wave Function Collapse)
 
-Model Synthesis more popularly known as Wave Function Collapse is rapidly going the way of Perlin noise in that there are so many materials on it online that the challenge is finding a way to demonstrate the apropriate level of learning.
+Model Synthesis more popularly known as Wave Function Collapse is is a popular approach to generating large scale self similar landscapes from minimal data. Indeed there are so many materials on it online that the challenge for a Masters Student is to find a way to demonstrate the apropriate level of learning. If you are considering a dissertation making use of this at MSc level then you should degfinately either have it as a minor tool in a greater system or otherwise consider a way to innovate or extend in this area.  
 
 ![](/images/Screenshot%20of%20Model%20Synthesis%20-%20Paul%20Merrell.png)
+
+#### Core
 
 - https://paulmerrell.org/research/
 - https://paulmerrell.org/wp-content/uploads/2021/06/model_synthesis.pdf
@@ -49,7 +32,19 @@ Model Synthesis more popularly known as Wave Function Collapse is rapidly going 
 - https://en.wikipedia.org/wiki/Model_synthesis
 - https://github.com/mxgmn/WaveFunctionCollapse
 
-Though I wonder if it can be done over 4d to include animated scenes?
+#### Successive Innovations and Applications
+
+**Using Wave Function Collapse and Other Algorithms** 
+- https://arxiv.org/abs/2308.07307
+- https://www.iccs-meeting.org/archive/iccs2025/papers/159090105.pdf
+- https://ouci.dntb.gov.ua/en/works/4zob5GKl/
+
+**For Navigation Rather than Generation**
+- https://www.jsr.org/index.php/path/article/view/1626
+
+**WFC Over Graphs rather than Grids**
+- https://www.jstage.jst.go.jp/article/transinf/E103.D/8/E103.D_2019EDP7295/_pdf
+- https://ieeexplore.ieee.org/document/8848019
 
 
 ### Generative Adversarial Neural Networks
@@ -64,4 +59,7 @@ Basically Deep Convoluted Generative Adversarial Networks can generate landscape
 
 
 
+### Conferences on PGC
+
+https://pcgworkshop.com/database.php
 
