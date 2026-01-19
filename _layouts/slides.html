@@ -4,17 +4,27 @@
 <head>
   <meta charset="utf-8">
   <title>sean butler / {{ page.title }}</title>
-  <link rel="stylesheet" href="/nano.css">
+  <!-- <link rel="stylesheet" href="/nano.css"> -->
   <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- Reveal.js core CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css">
+
+  <!-- Reveal.js core JS -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+
+
 </head>
+
+
 <body>
 
-<h1>{{ page.title }} <small>using layout slides</small>
-</h1>
+
+<p><a href = "http://www.seanbutler.net/">www.seanbutler.net</a>
+</p>
 
 
 <div class="reveal">
@@ -23,8 +33,7 @@
   </div>
 </div>
 
-<!-- Reveal.js core JS -->
-<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
 <script>
   Reveal.initialize({
     hash: true,
@@ -32,7 +41,11 @@
     plugins: [ RevealMarkdown ]
   });
 </script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+
+
 
 </body>
 </html>
+
+
+
