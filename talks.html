@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h2>talks</h2>
+
+
+
+<h3>links to slides</h3>
+
+{% for item in site.data.talks %}
+<a href="{{ item.source }}">{{ item.title }}</a>
+<ul>
+    <li><p>{{ item.label }}</p></li>
+    <li><p>{{ item.description }}</p></li>
+    <li><p>{{ item.course }}</p></li>
+    <li><p>{{ item.date }}</p></li>
+</ul>
+{% endfor %}
+

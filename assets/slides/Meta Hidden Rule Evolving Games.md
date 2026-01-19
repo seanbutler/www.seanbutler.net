@@ -1,12 +1,21 @@
+---
+layout: slides
+title: Meta, Hidden-Rule, and Evolving Games
+slug: tabletop-games
+tags: games test slides
+---
+
+
 # Tabletop Game Design for Engineers  
 ## Meta, Hidden-Rule, and Evolving Games
 
 ---
 
-## Slide 1: Title
-**Module:** Game Design for Engineers  
-**Session:** Meta & Evolving Tabletop Games  
-**Focus:** Rules as systems, not artefacts
+## Meta Hidden Rule & Evolving Tabletop Games
+
+<!-- **Module:** Game Design for Engineers   -->
+<!-- **Session:** Meta Hidden Rule & Evolving Tabletop Games   -->
+<!-- **Focus:** Rules as systems, not artefacts -->
 
 ---
 
