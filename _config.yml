@@ -2,8 +2,9 @@
 name: Sean Butler
 markdown: kramdown
 
-exclude:
-  - assets/slides
+
+include:
+  - assets
 
 collections:
     posts:

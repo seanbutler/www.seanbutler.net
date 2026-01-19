@@ -1,9 +1,3 @@
----
-layout: slides
-title: test
-slug: test-talks
-tags: test slides
----
 
 # test content 1
 
