@@ -7,4 +7,6 @@
   uri   :   https://www.goatcounter.com
   notes :   Privacy-focused, open-source web analytics tool designed to be a lightweight alternative to services like Google Analytics. It tracks basic metrics such as page views, referrers, and screen sizes without using cookies or collecting personal data, making it GDPR- and privacy-friendly by default. Being privacy-conscious I want want simple, transparent insights into website traffic without sharing all the data with the advertising monopolies.
 
-
+- label :   reveal.js
+  uri   :   https://revealjs.com
+  notes :   A framework for creating interactive presentations using HTML. It allows for the creation of html slideshows with features like transitions, themes, and the ability to embed multimedia content. A modern alternative to traditional slide software.

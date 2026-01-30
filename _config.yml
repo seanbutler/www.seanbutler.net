@@ -3,6 +3,9 @@ name: Sean Butler
 markdown: kramdown
 
 
+include:
+  - assets
+
 collections:
     posts:
         output: true
@@ -12,3 +15,6 @@ collections:
     writings:
         output: true
         permalink: /writings/:title/
+    talks:
+        output: true
+        permalink: /talks/:title/

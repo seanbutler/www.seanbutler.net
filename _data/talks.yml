@@ -1,0 +1,16 @@
+- label: meta-games
+  title: Meta Games, Hidden Rule & Evolving Games
+  description: Fluxx, The Game, 1000 Blank White Cards
+  course: Play and Games / Tabletop Game Design
+  level: Undergraduate
+  date: 2026-01-17
+  source: /assets/slides/meta-games-slides.md
+  slides: true
+
+- label: test-talks
+  title: Test Talk
+  description: Just a test talk
+  course: N/A
+  level: N/A
+  date: 2024-06-15
+  source: /assets/slides/test.md
