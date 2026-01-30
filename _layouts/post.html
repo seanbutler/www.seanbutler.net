@@ -13,28 +13,30 @@
 
   <header>
     <h1>sean butler</h1>
-    {% include nav_int.html %}
-    <h2>{{page.title}}</h2>
   </header>
+
 
   <main>
 
-    {% assign tags = page.tags %}
+    {% include nav_int.html %}
 
-    {% for tag in tags %}
+    <div class = "subheader">
+        <h2>{{page.title}}</h2>
+    </div>
 
-    <!-- <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a> -->
-    <i>
-      {{tag}}
-    </i>
-    {% unless forloop.last %}&nbsp;{% endunless %}
-    {% endfor %}
+    <div class = "container">
+        
+        {{ content }}
 
-    
-    {{ content }}
+        {% assign tags = page.tags %}
 
-
-
+        ( see also: 
+        {% for tag in tags %}
+          <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
+        <!-- {% unless forloop.last %}&nbsp;{% endunless %} -->
+        {% endfor %}
+        )
+    </div>
 
   </main>
 

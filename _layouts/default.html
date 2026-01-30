@@ -19,15 +19,20 @@
 <body>
   <header>
     <h1>sean butler</h1>
-    {% include nav_int.html %}
   </header>
+
+
+<main>
+
+    {% include nav_int.html %}
+
 
   <div class = "container">
     {{ content }}
   </div> 
 
-  <!-- {{page.tags | capitalize | join: ', '}} -->
-
+  </main>
+  
   <footer>
     {% include nav_ext.html %}
   </footer>

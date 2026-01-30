@@ -1,10 +1,17 @@
-<br />
-<br />
-<nav class="external">
+
+
+
+<div class = "bar">
+
+<nav class ="external">
+
   <ul>
     {% for item in site.data.external_links %}
-    <li><a href = "{{ item.uri }}">{{ item.label }}</a></li>
-    {% endfor %}
-  </ul>  
+      <li><a href = "{{ item.uri }}">{{ item.label }}</a></li>
+    {% endfor %}  
+
+</ul>  
+
 </nav>
-  
+
+</div>

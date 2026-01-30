@@ -1,7 +1,14 @@
+<div class = "bar">
+
 <nav class ="internal">
-<ul>
-{% for item in site.data.internal_links %}
-  <li><a href = "{{ item.uri }}">{{ item.label }}</a></li>
-  {% endfor %}  
+
+  <ul>
+    {% for item in site.data.internal_links %}
+      <li><a href = "{{ item.uri }}">{{ item.label }}</a></li>
+    {% endfor %}  
+
 </ul>  
+
 </nav>
+
+</div>

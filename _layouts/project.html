@@ -10,20 +10,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
+
+
 <body>
 
   <header>
     <h1>sean butler</h1>
-    {% include nav_int.html %}
-    <h2>{{page.title}}</h2>
   </header>
 
-  <main>
+
+<main>
+
+    {% include nav_int.html %}
+
+  <div class = "subheader">
+      <h2>{{page.title}}</h2>
+  </div>
+
+  <div class = "container">
+
+
 
     {% assign project = page.slug %}
 
     {{content}}
-
 
 
     {% assign writings_found = false  %}
@@ -46,9 +56,6 @@
     {% endif %}
 
 
-
-
-
     {% assign posts_found = false  %}
 
     {% for post in site.posts %}
@@ -57,7 +64,6 @@
       {% endif %}
     {% endfor %}
     
-
 
     {% if posts_found == true %}
     </hr>
@@ -72,12 +78,14 @@
 
     {% endif %}
 
+</div>
 
   </main>
 
 
+  
   <footer>
-    {% include nav_ext.html %}
+      {% include nav_ext.html %}
   </footer>
 
 </body>

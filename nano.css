@@ -1,17 +1,69 @@
 
+
+:root {
+  --main-white: #FFF;
+  --main-orange: #F70;
+  --main-black: #222;
+  --main-gray: #EEE;
+}
+
+
 html {
+  font-family: sans-serif;
+  margin: 0em;
+  padding: 0em;
+  font-size: 120%;
+  color: var(--main-black);
+}
+
+body {
+  margin: 0em;
+  padding: 0em;
+  line-height: 180%;
+}
+
+header {
+  /* padding-left: 1em; */
+  /* padding-right: 1em; */
+}
+
+header > h1{
+  font-size: 140%;
+}
+
+h1, h2 {
+  font-size: 140%;
+}
+
+h2 {
+
+}
+
+main
+{
+  background-color: var(--main-white);
+  min-height: 70vh;
+}
+
+header, .subheader, .container{
   max-width: 80ch;
-  padding: 1em 0em;
   margin: auto;
-  line-height: 1.4em;
-  font-size: 1.125em;
-  font-family: helvetica, Arial, sans-serif;
+}
+
+.subheader {
+  /* border: 1px solid purple; */
+  /* background: #FFF; */
+}
+
+.bar{
+  width: 100%;
+  background-color: var(--main-gray);
 }
 
 nav {
-  padding: 0.5em 0;
-  border-top: 1px solid #171830;
-  border-bottom: 1px solid #171830;
+  max-width: 80ch;
+  margin: auto;
+  padding: 1em 0 1em 0;
 }
 
 
@@ -23,19 +75,19 @@ nav > ul {
 }
 
 nav > ul > li {
-  margin: 0 1em 0 0;
+  margin: 0;
   padding: 0;
+  padding-right: 1em;
   display: inline-block;
 }
 
 
 
 img {
-  width: 100%; /* Set the images to take the full width of their container */
-  height: auto; /* Maintain the aspect ratio of the images */
-  display: block; /* Make the images behave as block elements to control their width */
+  width: 100%; 
+  height: auto;
+  display: block;
   margin: 1ch 0; 
-  /* Add some vertical margin to images */
 }
 
 pre
@@ -64,3 +116,29 @@ blockquote {
   padding: 0.5em 1em; 
   max-width: 80%;
 } 
+
+
+footer {
+  /* color: #666; */
+  /* margin: 2em 0; */
+  /* padding: 0; */
+}
+
+
+a {
+  color: var(--main-orange);
+  border-bottom: 2px solid var(--main-orange);
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: var(--main-orange);
+  border-bottom: 2px solid var(--main-black);
+}
+
+a:focus {
+  color: white;
+  background-color: var(--main-black);
+  border-bottom: 2px solid var(--main-orange);
+}
