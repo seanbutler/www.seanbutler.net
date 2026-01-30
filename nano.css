@@ -23,8 +23,9 @@ body {
 }
 
 header {
-  /* padding-left: 1em; */
-  /* padding-right: 1em; */
+  padding-left: 1em;
+  padding-right: 1em;
+  
 }
 
 header > h1{
@@ -41,6 +42,8 @@ h2 {
 
 main
 {
+
+  
   background-color: var(--main-white);
   min-height: 70vh;
 }
@@ -53,17 +56,29 @@ header, .subheader, .container{
 .subheader {
   /* border: 1px solid purple; */
   /* background: #FFF; */
+
+  padding-left: 1em;
+  padding-right: 1em;  
+}
+
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;  
 }
 
 .bar{
-  width: 100%;
+  /* margin-left: 1em; */
+  /* padding-right: 1em;   */
+
+  /* width: 100%; */
   background-color: var(--main-gray);
 }
 
 nav {
   max-width: 80ch;
   margin: auto;
-  padding: 1em 0 1em 0;
+  padding: 1em;
 }
 
 
