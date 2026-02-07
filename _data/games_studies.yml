@@ -1,0 +1,110 @@
+
+
+- name: "Board Game Studies Journal"
+  format: "journal"
+  type: "academic"
+  peer_reviewed: true
+  abbreviation: "BGSJ"
+  focus:
+    - games studies
+    - ludology
+    - board games
+    - historical games
+    - archaeology
+    - mechanics
+  notes: "Ideal venue for longer historical synthesis and mechanical comparison."
+  url: "https://www.boardgamestudies.info/"
+
+
+- name: "Game Studies"
+  format: "journal"
+  type: "academic"
+  peer_reviewed: true
+  focus:
+    - games studies
+    - ludology
+    - interdisciplinary game studies
+    - theory
+    - history
+    - formal analysis
+  notes: "Well-suited for theoretical and synthetic work on mechanics."
+  url: "http://gamestudies.org/"
+
+
+- name: "Games and Culture"
+  format: "journal"
+  type: "academic"
+  peer_reviewed: true
+  focus:
+    - games studies
+    - ludology
+    - cultural studies
+    - games and society
+    - history
+  notes: "Best if cultural framing is emphasized."
+  url: "https://journals.sagepub.com/home/gac"
+
+
+- name: "Eludamos: Journal for Computer Game Culture"
+  format: "journal"
+  type: "academic"
+  peer_reviewed: true
+  focus:
+    - digital games
+    - theory
+    - culture
+  notes: "Strong fit for board-to-digital continuity arguments."
+  url: "https://www.eludamos.org/index.php/eludamos"
+
+- name: "Transactions of the Digital Games Research Association"
+  abbreviation: "ToDiGRA"
+  format: "journal"
+  type: "academic"
+  peer_reviewed: true
+  focus:
+    - game theory
+    - mechanics
+    - digital games
+  notes: "Peer-reviewed; receptive to formal arguments."
+  url: "https://todigra.org/index.php/todigra"
+  
+
+- name: "International Journal of Gaming and Computer-Mediated Simulations"
+  abbreviation: "IJGCMS"
+  format: "journal"
+  type: "academic"
+  peer_reviewed: true
+  focus:
+    - simulations
+    - game mechanics
+  notes: "Broader scope; less historically focused."
+  url: "https://www.igi-global.com/journal/international-journal-gaming-computer-mediated/1125"
+  apc: "$2200"
+  impact_factor: 0.8
+  doi: 10.4018/IJGCMS
+
+- name: "DiGRA Conference"
+  organization: "Digital Games Research Association"
+  format: "conference"
+  type: "academic"
+  peer_reviewed: true
+  focus:
+    - digital games
+    - game studies
+    - mechanics
+  notes: "Peer-reviewed; good for preliminary findings and networking."
+  url: "https://digra.org/digra-conference/"
+
+
+
+- name: "British Digra"
+  organization: "British Digital Games Research Association"
+  format: "conference"
+  type: "academic"
+  peer_reviewed: true
+  focus:
+    - digital games
+    - game studies
+    - mechanics
+  notes: "Peer-reviewed; good for preliminary findings and networking."
+  url: "https://bdigra.co.uk/"
