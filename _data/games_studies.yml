@@ -13,7 +13,7 @@
     - archaeology
     - mechanics
   notes: "Ideal venue for longer historical synthesis and mechanical comparison."
-  url: "https://www.boardgamestudies.info/"
+  url: "https://boardgamestudies.site/journal/"
 
 
 - name: "Game Studies"
@@ -43,7 +43,8 @@
     - history
   notes: "Best if cultural framing is emphasized."
   url: "https://journals.sagepub.com/home/gac"
-
+  impact_factor: 1.6
+  apc: "for open access, fees apply. otherwise free to publish under subscription model."
 
 - name: "Eludamos: Journal for Computer Game Culture"
   format: "journal"
@@ -55,6 +56,7 @@
     - culture
   notes: "Strong fit for board-to-digital continuity arguments."
   url: "https://www.eludamos.org/index.php/eludamos"
+  ISSN: 1866-6124
 
 - name: "Transactions of the Digital Games Research Association"
   abbreviation: "ToDiGRA"
