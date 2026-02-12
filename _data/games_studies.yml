@@ -1,5 +1,21 @@
 
 
+- name: "The Routledge Companion to Board Games"
+  format: "book"
+  type: "academic"
+  peer_reviewed: true
+  focus:
+    - games studies
+    - culture
+    - ludology
+    - board games
+    - historical games
+    - archaeology
+  notes: "Comprehensive overview; good for literature reviews or starting out. Im currently reccommending this is added to the Reading List for 2nd Year undergrad course \"Play and Games\" at UWE"
+  url: "https://www.routledge.com/The-Routledge-Companion-to-Video-Game-Studies/Wolf-Perron/p/book/9781032103648"
+
+
+
 - name: "Board Game Studies Journal"
   format: "journal"
   type: "academic"
