@@ -1,19 +1,33 @@
 
 
 :root {
-  --main-white: #FFF;
-  --main-orange: #F70;
-  --main-black: #222;
-  --main-gray: #EEE;
+
+  /* --main-white: #FFF; */
+  /* --main-orange: #F70; */
+  /* --main-black: #222; */
+  /* --main-gray: #EEE; */
+
+  --main-background: #111;
+  --main-highlight: #CCC;
+  --main-foreground: #EEE;
+  --menu-background: #111;
+
+  --quote-background: #222;
+  --quote-ident: #334;
+
+  --pre-background: #222;
+  --pre-ident: #343;
+
 }
 
-
 html {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: 'Times New Roman', Times, serif;
   margin: 0em;
   padding: 0em;
   font-size: 120%;
-  color: var(--main-black);
+  color: var(--main-foreground);
+  background-color: var(--main-background);
 }
 
 body {
@@ -42,9 +56,7 @@ h2 {
 
 main
 {
-
-  
-  background-color: var(--main-white);
+  background-color: var(--main-background);
   min-height: 70vh;
 }
 
@@ -72,7 +84,7 @@ header, .subheader, .container{
   /* padding-right: 1em;   */
 
   /* width: 100%; */
-  background-color: var(--main-gray);
+  background-color: var(--menu-background);
 }
 
 nav {
@@ -107,10 +119,10 @@ img {
 
 pre
 {
-  background-color: #EFE;
+  background-color: var(--pre-background);
   /* margin: 1em 0 0 10%; */
 
-  border-left: 0.5em solid #AFA;
+  border-left: 0.5em solid var(--pre-ident);
   padding: 0.5em 1em; 
   max-width: 80%;
 
@@ -125,35 +137,35 @@ code {
 
 
 blockquote {
-  background-color: #EEF;
+  
+  background-color: var(--quote-background);
   /* margin: 1em 0 0 10%; */
-  border-left: 0.5em solid #AAF;
+  border-left: 0.5em solid var(--quote-ident);
   padding: 0.5em 1em; 
   max-width: 80%;
 } 
 
 
 footer {
-  /* color: #666; */
+  color: var(--menu-background);
   /* margin: 2em 0; */
   /* padding: 0; */
 }
 
-
 a {
-  color: var(--main-orange);
-  border-bottom: 2px solid var(--main-orange);
+  color: var(--main-highlight);
   text-decoration: none;
+  border-bottom: 1px solid var(--main-highlight);
 }
 
 a:hover {
-  color: black;
-  background-color: var(--main-orange);
-  border-bottom: 2px solid var(--main-black);
+  color: var(--main-background);
+  background-color: var(--main-highlight);
+  border-bottom: 1px solid var(--main-foreground);
 }
 
 a:focus {
-  color: white;
-  background-color: var(--main-black);
-  border-bottom: 2px solid var(--main-orange);
+  color: var(--main-background);
+  background-color: var(--main-foreground);
+  border-bottom: 1px solid var(--main-highlight);
 }
