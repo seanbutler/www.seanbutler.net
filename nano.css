@@ -1,31 +1,32 @@
 
-
 :root {
 
-  /* --main-white: #FFF; */
-  /* --main-orange: #F70; */
-  /* --main-black: #222; */
-  /* --main-gray: #EEE; */
+  --main-background: #f3ede6;
+  --main-highlight: #5F5F5F;
+  /* --main-bg-highlight: #5F5F5F; */
+  --main-foreground: #3F3F3F;
+  /* --main-fg-highlight: #5F5F5F; */
 
-  --main-background: #111;
-  --main-highlight: #CCC;
-  --main-foreground: #EEE;
-  --menu-background: #111;
+  --menu-background: #f3ede6;
 
-  --quote-background: #222;
-  --quote-ident: #334;
+  --quote-foreground: #3F3F3F;
+  --quote-background: #fff9f3;
+  --quote-ident: #e2c3a5;
 
-  --pre-background: #222;
-  --pre-ident: #343;
+  --pre-foreground: #3F3F3F;
+  --pre-background: #fff9f3;
+  --pre-ident: #e1e2a5;
+
+  --global-line-height: 180%;
 
 }
 
 html {
-  /* font-family: sans-serif; */
-  font-family: 'Times New Roman', Times, serif;
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
   margin: 0em;
   padding: 0em;
-  font-size: 120%;
+  font-size: 140%;
   color: var(--main-foreground);
   background-color: var(--main-background);
 }
@@ -33,7 +34,7 @@ html {
 body {
   margin: 0em;
   padding: 0em;
-  line-height: 180%;
+  line-height: var(--global-line-height);
 }
 
 header {
@@ -56,8 +57,9 @@ h2 {
 
 main
 {
-  background-color: var(--main-background);
+  /* background-color: var(--main-background); */
   min-height: 70vh;
+
 }
 
 header, .subheader, .container{
@@ -66,9 +68,6 @@ header, .subheader, .container{
 }
 
 .subheader {
-  /* border: 1px solid purple; */
-  /* background: #FFF; */
-
   padding-left: 1em;
   padding-right: 1em;  
 }
@@ -80,17 +79,13 @@ header, .subheader, .container{
 }
 
 .bar{
-  /* margin-left: 1em; */
-  /* padding-right: 1em;   */
-
-  /* width: 100%; */
   background-color: var(--menu-background);
 }
 
 nav {
   max-width: 80ch;
   margin: auto;
-  padding: 1em;
+  padding: oem 1em 0em 1em;
 }
 
 
@@ -104,7 +99,8 @@ nav > ul {
 nav > ul > li {
   margin: 0;
   padding: 0;
-  padding-right: 1em;
+  /* padding-left: 1em; */
+  padding-right: 2em;
   display: inline-block;
 }
 
@@ -120,15 +116,11 @@ img {
 pre
 {
   background-color: var(--pre-background);
-  /* margin: 1em 0 0 10%; */
-
+  color: var(--pre-foreground);
   border-left: 0.5em solid var(--pre-ident);
   padding: 0.5em 1em; 
   max-width: 80%;
 
-  /* border: 1px solid black; */
-  /* border-radius: 1em; */
-  /* padding: 1em; */
 }
 
 code {
@@ -137,9 +129,8 @@ code {
 
 
 blockquote {
-  
+  color: var(--quote-foreground);
   background-color: var(--quote-background);
-  /* margin: 1em 0 0 10%; */
   border-left: 0.5em solid var(--quote-ident);
   padding: 0.5em 1em; 
   max-width: 80%;
