@@ -7,9 +7,6 @@
 - label :   tags
   uri   :   /tags.html
 
-- label :   cv/resume
-  uri   :   /SeanButler_CurriculumVitae.pdf
-
 - label :   projects
   uri   :   /projects.html
 
