@@ -1,7 +1,6 @@
 
 :root {
 
-<<<<<<< HEAD
   --main-background: #FFF;
   --main-highlight: #FFF;
   --main-bg-highlight: #5F5F5F;
@@ -20,23 +19,6 @@
   --pre-foreground: #333;
   --pre-background: #DDD;
   --pre-ident: #dee06b;
-=======
-  --main-background: #000000;
-  --main-highlight: #FF7700;
-  /* --main-bg-highlight: #5F5F5F; */
-  --main-foreground: #BBBBBB;
-  /* --main-fg-highlight: #5F5F5F; */
-
-  --menu-background: #000000;
-
-  --quote-foreground: #AAAAAA;
-  --quote-background: #333;
-  --quote-ident: #FF00FF;
-
-  --pre-foreground: #AAAAAA;
-  --pre-background: #222;
-  --pre-ident: #00FF00;
->>>>>>> 6f8bf3556f34241900c6d9a7c768059c05210f0d
 
   --special-highlight: #FFFFFF;
   --global-line-height: 180%;
