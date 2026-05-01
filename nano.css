@@ -47,7 +47,7 @@ header {
 }
 
 header > h1 {
-  color: var(--special-highlight);
+  color: var(--main-foreground);
   font-size: 140%;
   padding: 1em 0 1em 0;
 }
@@ -55,7 +55,7 @@ header > h1 {
 h1, h2 {
   font-size: 140%;
 
-  color: var(--special-highlight);
+  color: var(--main-foreground);
 
 }
 
