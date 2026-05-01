@@ -1,21 +1,24 @@
 
 :root {
 
-  --main-background: #f3ede6;
-  --main-highlight: #5F5F5F;
-  /* --main-bg-highlight: #5F5F5F; */
-  --main-foreground: #3F3F3F;
-  /* --main-fg-highlight: #5F5F5F; */
+  --main-background: #FFF;
+  --main-highlight: #FFF;
+  --main-bg-highlight: #5F5F5F;
+  --main-foreground: #222;
+  --main-fg-highlight: #444;
 
-  --menu-background: #f3ede6;
+  --menu-background: #FFF;
 
-  --quote-foreground: #3F3F3F;
-  --quote-background: #fff9f3;
-  --quote-ident: #e2c3a5;
+  --link-foreground: #222;
+  --link-highlight: orange;
 
-  --pre-foreground: #3F3F3F;
-  --pre-background: #fff9f3;
-  --pre-ident: #e1e2a5;
+  --quote-foreground: #333;
+  --quote-background: #DDD;
+  --quote-ident: #edad6c;
+
+  --pre-foreground: #333;
+  --pre-background: #DDD;
+  --pre-ident: #dee06b;
 
   --global-line-height: 180%;
 
@@ -57,7 +60,7 @@ h2 {
 
 main
 {
-  /* background-color: var(--main-background); */
+  background-color: var(--main-background);
   min-height: 70vh;
 
 }
@@ -104,8 +107,6 @@ nav > ul > li {
   display: inline-block;
 }
 
-
-
 img {
   width: 100%; 
   height: auto;
@@ -127,7 +128,6 @@ code {
   font-family: monospace;
 } 
 
-
 blockquote {
   color: var(--quote-foreground);
   background-color: var(--quote-background);
@@ -136,7 +136,6 @@ blockquote {
   max-width: 80%;
 } 
 
-
 footer {
   color: var(--menu-background);
   /* margin: 2em 0; */
@@ -144,19 +143,18 @@ footer {
 }
 
 a {
-  color: var(--main-highlight);
+  color: var(--link-foreground);
   text-decoration: none;
-  border-bottom: 1px solid var(--main-highlight);
-}
-
-a:hover {
-  color: var(--main-background);
-  background-color: var(--main-highlight);
   border-bottom: 1px solid var(--main-foreground);
 }
 
+a:hover {
+  color: var(--link-highlight);
+  border-bottom: 1px solid var(--link-highlight);
+}
+
 a:focus {
-  color: var(--main-background);
+  /* color: var(--main-background); */
   background-color: var(--main-foreground);
-  border-bottom: 1px solid var(--main-highlight);
+  border-bottom: 1px solid var(--link-highlight);
 }
