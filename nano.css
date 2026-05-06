@@ -14,11 +14,11 @@
 
   --quote-foreground: #333;
   --quote-background: #DDD;
-  --quote-ident: #edad6c;
+  --quote-ident: #5454e1;
 
   --pre-foreground: #333;
   --pre-background: #DDD;
-  --pre-ident: #dee06b;
+  --pre-ident: #5de358;
 
   --special-highlight: #FFFFFF;
   --global-line-height: 180%;
@@ -93,7 +93,7 @@ header, .subheader, .container{
 nav {
   max-width: 80ch;
   margin: auto;
-  padding: oem 1em 0em 1em;
+  padding: 0em 1em 0em 1em;
 }
 
 
