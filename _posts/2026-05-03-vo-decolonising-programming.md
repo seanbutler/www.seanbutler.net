@@ -6,11 +6,16 @@ categories: programming languages compilers
 tags: programming-languages interpreters prototype-based minimalism internationalization vo decolonialism
 ---
 
-*Part one of a series on [VO](https://github.com/seanbutler/vo), a new dynamic programming language with a unique set of features.*
+*On [VO](https://github.com/seanbutler/vo), a dynamic programming language with an interesting set of features.*
 
-Could programming languages be more inclusive? Should they? Its become clear to most rational thinkers that its inapropriate to platform one group and not another or to disadvantage one group and not others.
+Could programming languages be more inclusive? Should they? I think its become clear to most rational thinkers that its inapropriate to platform one group and not another or to disadvantage one group and not others.
 
-From "if" and "while" to "class" and "return", most programming languages embed English deeply into their syntax in doing so they advantage English speaking learners. For everyone else it adds an extra burden: you must memorise foreign vocabulary before you can even express a computational idea. Those English words also carry concept baggage that can further confuse learners.
+Most programming languages embed English deeply into their syntax and in doing so they advantage English speaking learners. For everyone else it adds an extra burden: they must memorise foreign vocabulary before they can even express a computational idea. Those English words also carry concept baggage that can further confuse learners.
+
+
+### hello world
+
+At its core vo isnt radically different to current programming languages, and because its easy to bind with external c libraries, familiar functions can be called.  
 
 ```
 @ "./lib/stdio.vo"                   // Bring in the standard io library
@@ -30,12 +35,11 @@ even shorter
 printf_s("%s", "Hello World\n")  // Print a string
 ```
 
+However, in [VO](https://github.com/seanbutler/vo) the non english speaking learner isnt disadvantaged because wherever possible [VO](https://github.com/seanbutler/vo):
 
-In [VO](https://github.com/seanbutler/vo) I'm exploring this by trying wherever possible to:
+1. Uses symbols as the core language constructs
+2. Provides features within the language for any group of users to customise it to their liking
 
-1. Use symbols as the core language constructs
-2. Provide features within the language for any group of users to customise it to their liking
- 
 The name comes from "lingvo" — Esperanto for language — and it takes an internationalist approach by replacing keywords with symbols.
 
 ## Symbols as Universal Syntax
